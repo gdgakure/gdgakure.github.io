@@ -1,0 +1,82 @@
+---
+layout: post
+title: "Polymer 101: An Introduction to Material Design"
+author: Eyo O. E.
+---
+
+
+
+<p> For everybody that watched the Google I/O keynote you'd know about the new material design that google is implementing in the web, and trying to change the way we have web experiences, if maybe you didnt have the opportunity to watch the Google I/O key note maybe you should just head over to Google Design and have a feel of how it actually is... this development was actually rolled out to be the main big thing for the upcoming android L but then Google decided to extend it to the web so the released a library called POLYMER check it out the website at <a href="http://polymer-project.org/">The Polymer website</a> kinda of like jQuery, Bootstrap to help with incorporating it in our webpages... it should be noted that apparently the design ability has being extended to Angular.JS too for yall that already have an hang of Angular.
+</p>
+
+<p>So leaving all the great news behind this is a kind of tutorial on setting up the polymer designer tool locally on your system, since for some of us maybe the steps on the polymer website is kind of overwhelming i know it was for me. if you've headed over to the polymer website to get a feel of it you'd notice that there is a designer tool on the website to help generate the polymer code for us... maybe you dont have the intermittent internet connection to do fiddle around with it this is the guide to help you set it up locally so you can have all the time in the whole world to fiddle and learn.</p>
+
+<h5>So items we'll need or you probably have to download first:</h5>
+
+<ul>
+    <li>
+        you have to install a git client (http://git-scm.com/downloads) you'll need it cause you would be fetching files from github add git into your environment variables if you try typing <em>"git"</em> on your cmd prompt and you get path is not defined, add PATH ="C:\Program Files (x86)\Git\bin;"
+    </li>
+    <li>
+        Node.Js, head over to http://nodejs.org/download it just a 5mb installer or so also youll need to add node to your environment variables PATH= "C:\Users\yourusername\AppData\Roaming\npm;"
+    </li>
+    <li>
+       Next you need Bower on nodeJs after installing it open the command line and run npm bower install, bower helps you pull other components the developer used that the project requires to work 
+    </li>
+    <li>
+       polymer would not run with an HTTP server running, so inside your nodeJS run npm install serve it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run "serve" on your command line and it automatically serves your directory on <em>"http://localhost:3000"</em> 
+    </li>
+    <li>
+        then head over to the <a href="https://github.com/Polymer/designer">github polmer designer page</a> either clone the project or download the zip folder to your PC
+    </li>
+    <li>follow the steps in the README file</li>
+    <li>
+         cd into your project directory, run bower install, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with "serve" and load <em>"http://localhost:3000"</em> viola there you have it the designer locally.
+    </li>
+</ul>
+
+<h6> Now to gain an understanding of Polymer a little Hello World example:</h6>
+
+&nbsp
+
+{% highlight html linenos %}
+
+    <head>
+    <title>Test</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- you can get the polymer.js and platform.js by running bower install polymer on node.js -->
+        <script src="bower_components/platform/platform.js"></script>
+<!-- one of the new concept rolled off polymer is the ability to import into an html just like the @import in css -->
+        <link rel="import" href="bower_components/polymer/polymer.html">
+        <link rel="import" href="">
+         
+    </head>
+    <body>
+    <!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script -->
+
+        <polymer-element name="test" noscript>
+     <!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea -->
+            <template>
+              <style>
+                h1 {
+                color: #ccf;
+                    }
+              </style>
+                <h1>Hello Eyo!</h1>
+            </template>
+        </polymer-element>
+<!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag -->
+<!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  -->
+        <test></test>
+<!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance-->
+<h1>I am default</h1>
+
+    </body>
+
+{% endhighlight %}
+
+
+<p>P.S. You need to have an HTTP server for any of this run, else it'd seem like your getting it wrong</p>

@@ -1,0 +1,40 @@
+<header id="top-header" class="top-header">
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+        <use xlink:href="/img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
+    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
+        <div class="logo logo-light"></div>
+    </a>
+    <nav class="st-menu st-effect" id="menu">
+        <div class="logo-navbar logo logo-dark visible-xs"></div>
+        <ul>
+            <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
+            </li>
+            <li><a {% if page.permalink == '/blog/' %} class="current" {% endif %} href="{{ site.baseurl }}/blog/">Blog</a>
+            </li>
+            <!-- <li><a href="#">Schedule</a>
+            </li> -->
+
+            <!--
+            <li><a {% if page.permalink == '/speakers/' %} class="current" {% endif %} href="{{ site.baseurl }}/speakers/">Speakers</a>
+            </li> -->
+
+            <li><a {% if page.permalink == '/events/' %} class="current" {% endif %} href="{{ site.baseurl }}/events/">Events</a>
+            </li>
+
+            <!-- <li><a href="#">Hackathon</a>
+            </li> -->
+            <li><a {% if page.permalink == '/Akure/' %} class="current" {% endif %} href="{{ site.baseurl }}/akure/">Akure</a>
+            </li>
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            <!-- <li><a href="#">Buy tickets</a>
+            </li> -->
+            <li><a href="{{ site.c4pUrl }}" target="_blank">Become a Member</a>
+            </li>
+        </ul>
+        <span id="right-nav-button" class="right-nav-button right-nav-button-hidden btn btn-primary waves-element waves-button waves-light waves-will-raise pull-right hidden-xs hidden-sm">
+            <a href="{{ site.c4pUrl }}" target="_blank">Become a Member</a>
+        </span>
+    </nav>
+</header>

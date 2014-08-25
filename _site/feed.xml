@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GDG Akure</title>
+    <description>Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.</description>
+    <link>http://gdgakure.github.io/</link>
+    <atom:link href="http://gdgakure.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Polymer 101: An Introduction to Material Design</title>
+        <description>&lt;p&gt; For everybody that watched the Google I/O keynote you&#39;d know about the new material design that google is implementing in the web, and trying to change the way we have web experiences, if maybe you didnt have the opportunity to watch the Google I/O key note maybe you should just head over to Google Design and have a feel of how it actually is... this development was actually rolled out to be the main big thing for the upcoming android L but then Google decided to extend it to the web so the released a library called POLYMER check it out the website at &lt;a href=&quot;http://polymer-project.org/&quot;&gt;The Polymer website&lt;/a&gt; kinda of like jQuery, Bootstrap to help with incorporating it in our webpages... it should be noted that apparently the design ability has being extended to Angular.JS too for yall that already have an hang of Angular.
+&lt;/p&gt;
+
+&lt;p&gt;So leaving all the great news behind this is a kind of tutorial on setting up the polymer designer tool locally on your system, since for some of us maybe the steps on the polymer website is kind of overwhelming i know it was for me. if you&#39;ve headed over to the polymer website to get a feel of it you&#39;d notice that there is a designer tool on the website to help generate the polymer code for us... maybe you dont have the intermittent internet connection to do fiddle around with it this is the guide to help you set it up locally so you can have all the time in the whole world to fiddle and learn.&lt;/p&gt;
+
+&lt;h5&gt;So items we&#39;ll need or you probably have to download first:&lt;/h5&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;
+        you have to install a git client (http://git-scm.com/downloads) you&#39;ll need it cause you would be fetching files from github add git into your environment variables if you try typing &lt;em&gt;&quot;git&quot;&lt;/em&gt; on your cmd prompt and you get path is not defined, add PATH =&quot;C:\Program Files (x86)\Git\bin;&quot;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Node.Js, head over to http://nodejs.org/download it just a 5mb installer or so also youll need to add node to your environment variables PATH= &quot;C:\Users\yourusername\AppData\Roaming\npm;&quot;
+    &lt;/li&gt;
+    &lt;li&gt;
+       Next you need Bower on nodeJs after installing it open the command line and run npm bower install, bower helps you pull other components the developer used that the project requires to work 
+    &lt;/li&gt;
+    &lt;li&gt;
+       polymer would not run with an HTTP server running, so inside your nodeJS run npm install serve it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run &quot;serve&quot; on your command line and it automatically serves your directory on &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; 
+    &lt;/li&gt;
+    &lt;li&gt;
+        then head over to the &lt;a href=&quot;https://github.com/Polymer/designer&quot;&gt;github polmer designer page&lt;/a&gt; either clone the project or download the zip folder to your PC
+    &lt;/li&gt;
+    &lt;li&gt;follow the steps in the README file&lt;/li&gt;
+    &lt;li&gt;
+         cd into your project directory, run bower install, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with &quot;serve&quot; and load &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; viola there you have it the designer locally.
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6&gt; Now to gain an understanding of Polymer a little Hello World example:&lt;/h6&gt;
+
+&amp;nbsp
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;X-UA-Compatible&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;IE-edge,chrome=1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;viewport&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- you can get the polymer.js and platform.js by running bower install polymer on node.js --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bower_components/platform/platform.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- one of the new concept rolled off polymer is the ability to import into an html just like the @import in css --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;import&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bower_components/polymer/polymer.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;import&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;          
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;polymer-element&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;test&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;noscript&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;             &lt;span class=&quot;nt&quot;&gt;&amp;lt;template&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;               &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;                 &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt;                 &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ccf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;                     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt;               &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;                 &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello Eyo!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt;             &lt;span class=&quot;nt&quot;&gt;&amp;lt;/template&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;27&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/polymer-element&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;29&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;30&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;test&amp;gt;&amp;lt;/test&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;31&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance--&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;32&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;I am default&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;33&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;34&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;P.S. You need to have an HTTP server for any of this run, else it&#39;d seem like your getting it wrong&lt;/p&gt;</description>
+        <pubDate>Mon, 11 Aug 2014 00:00:00 +0100</pubDate>
+        <link>http://gdgakure.github.io/blog/Polymer-101-an-introduction-to-material-design</link>
+        <guid isPermaLink="true">http://gdgakure.github.io/blog/Polymer-101-an-introduction-to-material-design</guid>
+      </item>
+    
+      <item>
+        <title>#GCDC Akure</title>
+        <description>&lt;img src=&quot;http://1.bp.blogspot.com/-0Nuw-S93p_g/UlJegwIZEXI/AAAAAAAADaY/lbtxCl95UFw/s640/Banner+(2).png&quot; style=&quot;align:center;&quot; /&gt;
+
+&lt;p&gt;Challenge! It&#39;s time to show the world what you can do with the Google Cloud Platform.
+Three Sessions, Three Languages, One Platform
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;PHP on App Engine (Recommended for theNigerian Website Developer)&lt;/li&gt;
+	&lt;li&gt;Python on App Engine (Recommended for Beginners)&lt;/li&gt;
+	&lt;li&gt;Java on App Engine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Registration link is here &lt;a href=&quot;http://goo.gl/CK5XM0&quot;&gt;http://goo.gl/CK5XM0&lt;/a&gt; &amp;nbsp
+Google + Event Page is here &lt;a href=&quot;http://goo.gl/oajk6g&quot;&gt;http://goo.gl/oajk6g&lt;/a&gt;
+&lt;/p&gt;
+&lt;h5&gt;Event Details&lt;/h5&gt;
+&lt;ul&gt;
+	&lt;li&gt;Date: 12th October 2013&lt;/li&gt;
+	&lt;li&gt;Venue: Royal Birds Alagbaka, Akure, Nigeria&lt;/li&gt;
+	&lt;li&gt;Time: 10am to 2pm&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Wed, 02 Oct 2013 00:00:00 +0100</pubDate>
+        <link>http://gdgakure.github.io/blog/GCDC-Akure</link>
+        <guid isPermaLink="true">http://gdgakure.github.io/blog/GCDC-Akure</guid>
+      </item>
+    
+      <item>
+        <title>Minutes after DevFest Akure</title>
+        <description>&lt;p&gt;DevFest akure was tagged &quot;Reviving a Process&quot;. It was setup to be a training for developers on Google Technologies, disguised as a Hackathon.
+
+66 People said Yes they would be coming on Google+, These individuals included students, developers and professionals from across Akure.
+45 People Turned up for the Event, Not counting the Speakers and the Organizers.&lt;/p&gt;
+
+&lt;p&gt;The Program started at 10:30 with a short introduction to The program. This was taken by &lt;a href=&quot;http://plus.google.com/103244551260750496913&quot;&gt;+Tomiwa Ijaware&lt;/a&gt;, Next we had a Presentation on Software Development at 10, 000ft. This presentation tried to introduce the pieces that makes a working software. He emphasized the Use of OAuth, HTML5, CSS3, Google App Engine and Mobile Applications and Source Control, and promised that this would be taken in details over the cause of the meetup. He Then had a practical session where people documented the users they would be targeting for the development of their apps
+&lt;/p&gt;
+
+&lt;p&gt;The Next Session was on Source Control with Git, It was started by &lt;a href=&quot;http://plus.google.com/115354888144009772047&quot;&gt;+Samuel Okoroafor&lt;/a&gt;. Samuel explained what Source control was and showed the pull - change - commit - push cycle. He then started the practical session where he guided people in the Source Control Practical. There was brief difficulty with internet access, but the network finally came through. Due to an urgent Call, &lt;a href=&quot;http://plus.google.com/115354888144009772047&quot;&gt;+Samuel Okoroafor&lt;/a&gt; had to stop halfway.&lt;/p&gt;
+
+&lt;p&gt;
+This session was continued by &lt;a href=&quot;http://plus.google.com/104110587868441041122&quot;&gt;+ADEKOLA ADEBAYO&lt;/a&gt; who continued the Source control Practical Session. This session came to a close and was immediately followed by a brief Session on Google Apps&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;http://plus.google.com/113375950149684624825&quot;&gt;+iyanuoluwa bolarinwa&lt;/a&gt; Educated people on performing basic tasks with Google Drive and Gmail. After this, we had Lunch at 1:30pm, 
+The Session Resuned at 2:00 with a Session on Google App Engine taken by &lt;a href=&quot;http://plus.google.com/104110587868441041122&quot;&gt;+ADEKOLA ADEBAYO&lt;/a&gt;. Kola First Explained AppEngine and then moved into the AppEngine Practical. The BackEnd of a Simple To Do List App was built. This session made use of the knowledge gotten from Source Control. The To Do service Built also was available for mobile devices via the Google Cloud Endpoints.&lt;/p&gt;
+
+&lt;p&gt;Immediately after this, &lt;a href=&quot;http://plus.google.com/110696408351640467234&quot;&gt;+Akinwande Adegbola&lt;/a&gt; went straight into creating the Android Client for the To Do Application. People were especially thrilled when they saw their work finally working on their Android Phones.
+&lt;/p&gt;
+
+&lt;p&gt;Afterwards, &lt;a href=&quot;http://plus.google.com/115354888144009772047&quot;&gt;+Samuel Okoroafor&lt;/a&gt; gave the Vote of Thanks, and a lot of Pictures were taken about the event.
+&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Sep 2013 00:00:00 +0100</pubDate>
+        <link>http://gdgakure.github.io/blog/minutes-after-devfest-akure</link>
+        <guid isPermaLink="true">http://gdgakure.github.io/blog/minutes-after-devfest-akure</guid>
+      </item>
+    
+      <item>
+        <title>Map Up Akure</title>
+        <description>&lt;img src=&quot;https://sites.google.com/site/mapyourworldcommunity/_/rsrc/1330465412277/config/customLogo.gif?revision=18&quot; style=&quot;align:center;&quot; /&gt;
+&lt;p&gt; Map up Akure is a community driven event sponsored by Eco-Innovation Hub, Akure and supported by Google. It is scheduled to hold between 8th and 10th of August 2013.
+&lt;/p&gt;
+&lt;p&gt;Interested participants can sign-up for the event at &lt;a href=&quot;https://bit.ly.akuremapup&quot;&gt;https://bit.ly.akuremapup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; more information about map ups can be found here. &lt;a href=&quot;https://sites.google.com/site/mapyourworldcommunity/&quot;&gt;https://sites.google.com/site/mapyourworldcommunity/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;img src=&quot;http://www.google.com/images/icons/feature/globe_bubbles-256.png&quot; /&gt;</description>
+        <pubDate>Wed, 24 Jul 2013 00:00:00 +0100</pubDate>
+        <link>http://gdgakure.github.io/blog/map-up-akure</link>
+        <guid isPermaLink="true">http://gdgakure.github.io/blog/map-up-akure</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+- 
+  id: 0
+  name: "Vitaliy"
+  surname: "Zasadnyy"
+  title: "Sponsors and Speakers Manager"
+  thumbnailUrl: VitaliyZasadnyy.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 1
+  name: "Oleh"
+  surname: "Zasadnyy"
+  title: "Designer"
+  thumbnailUrl: OlehZasadnyy.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
+- 
+  id: 2
+  name: "Ostap"
+  surname: "Andrusiv"
+  title: "Sponsors and Speakers Manager"
+  thumbnailUrl: OstapAndrusiv.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
+- 
+  id: 8
+  name: "Tomiwa"
+  surname: "Ijaware"
+  company: "500shops"
+  title: "Software Engineer"
+  bio: "Tomiwa is a true technology enthusiast who enjoys collaborating with developers across Africa to create amazing new prodicts and services. He is a experienced software engineer and programmer who first ran his first program at 9. He is particularly interested in empowering startups interested in providing truly global problems from a local context. He is a true volunteer and has volunteered for several causes including serving his country in the National Youth Service Corps as an anti corruption agent. He is very comfortable working as an individual as well as on a team."
+  thumbnailUrl: TomiwaIjaware.jpg
+  subTeam: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+TomiwaIjaware/"}
+    - {name: "twitter", link: "https://twitter.com/e911miri/"}
+    - {name: "github", link: "https://github.com/e911miri/"}
+- 
+  id: 9
+  name: "Akinwande"
+  surname: "Adegbola"
+  company: "Kaizen venture Partners"
+  title: "Mobile/Software Developer"
+  bio: "i'll update this section later :)"
+  thumbnailUrl: AkinwandeAdegbola.jpg
+  subTeam: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+AkinwandeAdegbola/"}
+    - {name: "twitter", link: "https://twitter.com/wandechris/"}
+    - {name: "github", link: "https://github.com/wandechris/"}

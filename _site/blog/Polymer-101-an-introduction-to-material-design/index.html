@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Blog">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
+    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, akure">
+    <link rel="canonical" href="http://gdgakure.github.io">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="Polymer 101: An Introduction to Material Design">
+    <meta itemprop="description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
+    <meta itemprop="image" content="http://gdgakure.github.io/img/seo/sharing-google-plus.png">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@GDGAkure">
+    <meta name="twitter:title" content="Polymer 101: An Introduction to Material Design">
+    <meta name="twitter:description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
+    <meta name="twitter:image:src" content="http://gdgakure.github.io/img/seo/sharing-twitter.png">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="Polymer 101: An Introduction to Material Design" /> 
+    <meta property="og:site_name" content="GDG Akure" /> 
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="http://gdgakure.github.io" />
+    <meta property="og:image" content="http://gdgakure.github.io/img/seo/sharing-facebook.png" />
+    <meta property="og:description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts." /> 
+    
+
+    <title>Polymer 101: An Introduction to Material Design &bull; GDG Akure</title>
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    
+    <link href="/css/main.min.css" rel="stylesheet"> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+
+<body>
+    <div id="preloader" class="preloader">
+        <div class="loader-gplus"></div>
+    </div>
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+
+                <!-- Begin Top Section -->
+<section id="top-section" class="top-section image-section">
+    <div class="overlay gradient-overlay"></div>
+
+    <header id="top-header" class="top-header">
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+        <use xlink:href="/img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
+    <a href="/" id="logo-header" class="logo-header">
+        <div class="logo logo-light"></div>
+    </a>
+    <nav class="st-menu st-effect" id="menu">
+        <div class="logo-navbar logo logo-dark visible-xs"></div>
+        <ul>
+            <li><a  href="/">Home</a>
+            </li>
+            <li><a  href="/blog/">Blog</a>
+            </li>
+            <!-- <li><a href="#">Schedule</a>
+            </li> -->
+
+            <!--
+            <li><a  href="/speakers/">Speakers</a>
+            </li> -->
+
+            <li><a  href="/events/">Events</a>
+            </li>
+
+            <!-- <li><a href="#">Hackathon</a>
+            </li> -->
+            <li><a  href="/akure/">Akure</a>
+            </li>
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            <!-- <li><a href="#">Buy tickets</a>
+            </li> -->
+            <li><a href="http://bit.ly/dfua-c4p" target="_blank">Become a Member</a>
+            </li>
+        </ul>
+        <span id="right-nav-button" class="right-nav-button right-nav-button-hidden btn btn-primary waves-element waves-button waves-light waves-will-raise pull-right hidden-xs hidden-sm">
+            <a href="http://bit.ly/dfua-c4p" target="_blank">Become a Member</a>
+        </span>
+    </nav>
+</header>
+
+    <div class="jumbotron text-left">
+        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+            <h1>Polymer 101: An Introduction to Material Design</h1>
+        </div>
+    </div>
+</section>
+<!-- End Top Section --> 
+
+                <!-- Begin Post-->
+<section id="post-section" class="post-section">
+    <div class="content-wrapper text-left">
+        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+            <div class="col-lg-8 col-md-10 col-xs-12">
+
+                <article class="row post">
+
+                    
+                    
+                    <div class="post-body"><p> For everybody that watched the Google I/O keynote you'd know about the new material design that google is implementing in the web, and trying to change the way we have web experiences, if maybe you didnt have the opportunity to watch the Google I/O key note maybe you should just head over to Google Design and have a feel of how it actually is... this development was actually rolled out to be the main big thing for the upcoming android L but then Google decided to extend it to the web so the released a library called POLYMER check it out the website at <a href="http://polymer-project.org/">The Polymer website</a> kinda of like jQuery, Bootstrap to help with incorporating it in our webpages... it should be noted that apparently the design ability has being extended to Angular.JS too for yall that already have an hang of Angular.
+</p>
+
+<p>So leaving all the great news behind this is a kind of tutorial on setting up the polymer designer tool locally on your system, since for some of us maybe the steps on the polymer website is kind of overwhelming i know it was for me. if you've headed over to the polymer website to get a feel of it you'd notice that there is a designer tool on the website to help generate the polymer code for us... maybe you dont have the intermittent internet connection to do fiddle around with it this is the guide to help you set it up locally so you can have all the time in the whole world to fiddle and learn.</p>
+
+<h5>So items we'll need or you probably have to download first:</h5>
+
+<ul>
+    <li>
+        you have to install a git client (http://git-scm.com/downloads) you'll need it cause you would be fetching files from github add git into your environment variables if you try typing <em>"git"</em> on your cmd prompt and you get path is not defined, add PATH ="C:\Program Files (x86)\Git\bin;"
+    </li>
+    <li>
+        Node.Js, head over to http://nodejs.org/download it just a 5mb installer or so also youll need to add node to your environment variables PATH= "C:\Users\yourusername\AppData\Roaming\npm;"
+    </li>
+    <li>
+       Next you need Bower on nodeJs after installing it open the command line and run npm bower install, bower helps you pull other components the developer used that the project requires to work 
+    </li>
+    <li>
+       polymer would not run with an HTTP server running, so inside your nodeJS run npm install serve it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run "serve" on your command line and it automatically serves your directory on <em>"http://localhost:3000"</em> 
+    </li>
+    <li>
+        then head over to the <a href="https://github.com/Polymer/designer">github polmer designer page</a> either clone the project or download the zip folder to your PC
+    </li>
+    <li>follow the steps in the README file</li>
+    <li>
+         cd into your project directory, run bower install, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with "serve" and load <em>"http://localhost:3000"</em> viola there you have it the designer locally.
+    </li>
+</ul>
+
+<h6> Now to gain an understanding of Polymer a little Hello World example:</h6>
+
+&nbsp
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;head&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;title&gt;</span>Test<span class="nt">&lt;/title&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">&quot;X-UA-Compatible&quot;</span> <span class="na">content=</span><span class="s">&quot;IE-edge,chrome=1&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>         <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span> <span class="c">&lt;!-- you can get the polymer.js and platform.js by running bower install polymer on node.js --&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="lineno"> 9</span> <span class="c">&lt;!-- one of the new concept rolled off polymer is the ability to import into an html just like the @import in css --&gt;</span>
+<span class="lineno">10</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;bower_components/polymer/polymer.html&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">11</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">12</span>          
+<span class="lineno">13</span>     <span class="nt">&lt;/head&gt;</span>
+<span class="lineno">14</span>     <span class="nt">&lt;body&gt;</span>
+<span class="lineno">15</span>     <span class="c">&lt;!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script --&gt;</span>
+<span class="lineno">16</span> 
+<span class="lineno">17</span>         <span class="nt">&lt;polymer-element</span> <span class="na">name=</span><span class="s">&quot;test&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
+<span class="lineno">18</span>      <span class="c">&lt;!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea --&gt;</span>
+<span class="lineno">19</span>             <span class="nt">&lt;template&gt;</span>
+<span class="lineno">20</span>               <span class="nt">&lt;style&gt;</span>
+<span class="lineno">21</span>                 <span class="nt">h1</span> <span class="p">{</span>
+<span class="lineno">22</span>                 <span class="k">color</span><span class="o">:</span> <span class="m">#ccf</span><span class="p">;</span>
+<span class="lineno">23</span>                     <span class="p">}</span>
+<span class="lineno">24</span>               <span class="nt">&lt;/style&gt;</span>
+<span class="lineno">25</span>                 <span class="nt">&lt;h1&gt;</span>Hello Eyo!<span class="nt">&lt;/h1&gt;</span>
+<span class="lineno">26</span>             <span class="nt">&lt;/template&gt;</span>
+<span class="lineno">27</span>         <span class="nt">&lt;/polymer-element&gt;</span>
+<span class="lineno">28</span> <span class="c">&lt;!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag --&gt;</span>
+<span class="lineno">29</span> <span class="c">&lt;!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  --&gt;</span>
+<span class="lineno">30</span>         <span class="nt">&lt;test&gt;&lt;/test&gt;</span>
+<span class="lineno">31</span> <span class="c">&lt;!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance--&gt;</span>
+<span class="lineno">32</span> <span class="nt">&lt;h1&gt;</span>I am default<span class="nt">&lt;/h1&gt;</span>
+<span class="lineno">33</span> 
+<span class="lineno">34</span>     <span class="nt">&lt;/body&gt;</span></code></pre></div>
+
+
+<p>P.S. You need to have an HTTP server for any of this run, else it'd seem like your getting it wrong</p></div>
+
+                    <div id="page-navigation">
+                        <div class="left pull-left">
+                            
+                        </div>
+                        <div class="right pull-right">
+                            
+                                <a href="/blog/GCDC-Akure" title="#GCDC Akure">#GCDC Akure &raquo;</a>
+                            
+                        </div>
+                    </div>
+
+                    
+
+                </article>
+
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Post --> 
+                
+                <!-- Begin Footer -->
+<footer id="footer" class="footer">
+	<div class="row">
+		<div class="pull-left col-md-6 col-xs-6">
+			<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="http://gdgakure.github.io"></div>
+		</div>
+		<div class="logo logo-footer logo-gray pull-right"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-xs-6">
+			<h5>Links</h5>
+			<ul>
+				<li><a href="https://developers.google.com" target="_blank">Google Developers</a>
+				</li>
+			</ul>
+			<ul class="social-links">
+				<li>
+					<a href="https://plus.google.com/communities/106484271764040223307" target="_blank">
+						<svg class="icon icon-google-plus" viewBox="0 0 30 32">
+							<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/intent/user?screen_name=GDGAkure" target="_blank">
+						<svg class="icon icon-twitter" viewBox="0 0 30 32">
+							<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<svg class="icon icon-facebook" viewBox="0 0 30 32">
+							<use xlink:href="/img/sprites/sprites.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="/feed.xml" target="_blank">
+						<svg class="icon icon-rss" viewBox="0 0 30 32">
+							<use xlink:href="/img/sprites/sprites.svg#icon-rss"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-6">
+			<h5>Contacts</h5>
+			<ul>
+				<li><a href="mailto:tomiwaijaware@gmail.com" target="_blank">tomiwaijaware@gmail.com</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-6">
+			<h5>FAQ</h5>
+			<ul>
+				<li><a href="/cod/">Code of Conduct</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Please don't delete this line-->
+		<div class="col-md-6">
+			<p class="copyright">
+				&copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a> Enhanced for <a href="https://plus.google.com/communities/106484271764040223307">GDG Akure</a> by <a href="plus.google.com/+EyoOkonEyo/about">Eyo O. E.</a>
+			</p>
+		</div>
+	</div>
+</footer>
+<!-- End Footer -->
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', '');
+  ga('send', 'pageview');
+
+</script>
+
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- jQuery local fallback -->
+    <script>
+        window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js ><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS local fallback -->
+    <script>
+        if (typeof ($.fn.modal) === 'undefined') {
+            document.write('<script src="/js/bootstrap.min.js ><\/script>')
+        }
+    </script>
+    <script src="/js/jquery.appear.min.js"></script>
+    <script src="/js/waves.min.js"></script>
+    <script src="/js/scripts.min.js"></script>
+</body>
+
+</html>

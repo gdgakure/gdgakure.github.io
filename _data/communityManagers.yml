@@ -1,0 +1,30 @@
+- 
+  id: 3
+  name: "Tomiwa"
+  surname: "Ijaware"
+  company: "500shops"
+  title: "Software Engineer"
+  bio: "Tomiwa is a true technology enthusiast who enjoys collaborating with developers across Africa to create amazing new prodicts and services. He is a experienced software engineer and programmer who first ran his first program at 9. He is particularly interested in empowering startups interested in providing truly global problems from a local context. He is a true volunteer and has volunteered for several causes including serving his country in the National Youth Service Corps as an anti corruption agent. He is very comfortable working as an individual as well as on a team."
+  thumbnailUrl: TomiwaIjaware.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+TomiwaIjaware/"}
+    - {name: "twitter", link: "https://twitter.com/e911miri/"}
+    - {name: "github", link: "https://github.com/e911miri/"}
+- 
+  id: 4
+  name: "Akinwande"
+  surname: "Adegbola"
+  company: "Kaizen venture Partners"
+  title: "Mobile/Software Developer"
+  bio: "i'll update this section later :)"
+  thumbnailUrl: AkinwandeAdegbola.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+AkinwandeAdegbola/"}
+    - {name: "twitter", link: "https://twitter.com/wandechris/"}
+    - {name: "github", link: "https://github.com/wandechris/"}
