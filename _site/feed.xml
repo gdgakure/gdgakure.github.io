@@ -23,17 +23,17 @@
         Node.Js, head over to http://nodejs.org/download it just a 5mb installer or so also youll need to add node to your environment variables PATH= &quot;C:\Users\yourusername\AppData\Roaming\npm;&quot;
     &lt;/li&gt;
     &lt;li&gt;
-       Next you need Bower on nodeJs after installing it open the command line and run npm bower install, bower helps you pull other components the developer used that the project requires to work 
+       Next you need Bower on nodeJs after installing it open the command line and run &lt;b&gt;&lt;em&gt;npm bower install&lt;/em&gt;&lt;/b&gt;, bower helps you pull other components the developer used that the project requires to work 
     &lt;/li&gt;
     &lt;li&gt;
-       polymer would not run with an HTTP server running, so inside your nodeJS run npm install serve it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run &quot;serve&quot; on your command line and it automatically serves your directory on &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; 
+       polymer would not run without an HTTP server running, so inside your nodeJS run &lt;b&gt;&lt;em&gt;npm install serve&lt;/em&gt;&lt;/b&gt; it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run &lt;em&gt;&quot;serve&quot;&lt;/em&gt; on your command line and it automatically serves your directory on &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; 
     &lt;/li&gt;
     &lt;li&gt;
         then head over to the &lt;a href=&quot;https://github.com/Polymer/designer&quot;&gt;github polmer designer page&lt;/a&gt; either clone the project or download the zip folder to your PC
     &lt;/li&gt;
     &lt;li&gt;follow the steps in the README file&lt;/li&gt;
     &lt;li&gt;
-         cd into your project directory, run bower install, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with &quot;serve&quot; and load &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; viola there you have it the designer locally.
+         cd into your project directory, run &lt;b&gt;&lt;em&gt;bower install&lt;/em&gt;&lt;/b&gt;, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with &quot;serve&quot; and load &lt;em&gt;&quot;http://localhost:3000&quot;&lt;/em&gt; viola there you have it the designer locally.
     &lt;/li&gt;
 &lt;/ul&gt;
 
