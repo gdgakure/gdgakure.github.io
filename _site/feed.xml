@@ -7,6 +7,35 @@
     <atom:link href="http://gdgakure.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>GDG AKure in Review[2014]</title>
+        <description>&lt;p&gt;In 2014, the tech community in Nigeria as a whole grew in leaps and bounds and the GDGAkure is glad to be a part of that growth. We come bringing news and innovation from the bigger tech community and we want to share what we have learned and hope that that would help us grow together as a community. 
+Since we started, we have had a tonne of events, some with major successes. Now it is time to bring everyone to be a full member of the community.&lt;/p&gt;
+&lt;p&gt;Since we are dealing with a community of over 100 people who have different devices and communication preferences, we believe that communicating via a mailing list would be most effective. We have seen it work in other GDGs across Nigeria, Africa and the World at large and we believe it to work for us.&lt;/p&gt;
+&lt;p&gt; 
+The URL for our mailing list is  &lt;a href=&quot;&gt;bitly.com/gdgakuremailinglist&quot;&gt;bitly.com/gdgakuremailinglist&lt;/a&gt; &lt;br&gt;
+The URL for our blog is &lt;a href=&quot;gdgakure.blogspot.com&quot;&gt;gdgakure.blogspot.com&lt;/a&gt; &lt;br&gt;
+On Google plus, &lt;a href=&quot;https://plus.google.com/+GdgakureBlogspot&quot;&gt;https://plus.google.com/+GdgakureBlogspot&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt; Over the course of the year, we have had two events with over 600participants in total &lt;br&gt;
+- Google FUTA &lt;br&gt;
+- Google I/O Extended &lt;/p&gt;
+&lt;p&gt;Before the end of the year, we still want to have 3 event, we would like to involve as many people as possible in the planning of our future events. In the course of the year, we had 6 events and one large event and a DevFest.&lt;/p&gt;
+
+&lt;p&gt; We welcome any suggestion no matter how wild, afterall, we would be solving for our own X pretty soon. 
+We welcome feedback, concerns, critisism, anything that could help us grow, we are always ready to listen.
+&lt;/p&gt;
+&lt;p&gt;
+	 DISCLAIMER: &lt;br&gt;
+If you did not get the solveforx joke, check out &lt;a href=&quot;https://www.solveforx.com/&quot;&gt;https://www.solveforx.com/&lt;/a&gt; &lt;br&gt;
+I don&#39;t know why Google plus Decided to Add blogspot to our URI &lt;br&gt;
+
+&lt;/p&gt;</description>
+        <pubDate>Wed, 27 Aug 2014 00:00:00 +0100</pubDate>
+        <link>http://gdgakure.github.io/blog/GDG-Akure-in-review-2014</link>
+        <guid isPermaLink="true">http://gdgakure.github.io/blog/GDG-Akure-in-review-2014</guid>
+      </item>
+    
+      <item>
         <title>Polymer 101: An Introduction to Material Design</title>
         <description>&lt;p&gt; For everybody that watched the Google I/O keynote you&#39;d know about the new material design that google is implementing in the web, and trying to change the way we have web experiences, if maybe you didnt have the opportunity to watch the Google I/O key note maybe you should just head over to Google Design and have a feel of how it actually is... this development was actually rolled out to be the main big thing for the upcoming android L but then Google decided to extend it to the web so the released a library called POLYMER check it out the website at &lt;a href=&quot;http://polymer-project.org/&quot;&gt;The Polymer website&lt;/a&gt; kinda of like jQuery, Bootstrap to help with incorporating it in our webpages... it should be noted that apparently the design ability has being extended to Angular.JS too for yall that already have an hang of Angular.
 &lt;/p&gt;

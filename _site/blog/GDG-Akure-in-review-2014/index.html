@@ -11,17 +11,17 @@
     <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, akure">
     <link rel="canonical" href="http://gdgakure.github.io">
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Polymer 101: An Introduction to Material Design">
+    <meta itemprop="name" content="GDG AKure in Review[2014]">
     <meta itemprop="description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
     <meta itemprop="image" content="http://gdgakure.github.io/img/seo/sharing-google-plus.png">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@GDGAkure">
-    <meta name="twitter:title" content="Polymer 101: An Introduction to Material Design">
+    <meta name="twitter:title" content="GDG AKure in Review[2014]">
     <meta name="twitter:description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
     <meta name="twitter:image:src" content="http://gdgakure.github.io/img/seo/sharing-twitter.png">
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="Polymer 101: An Introduction to Material Design" /> 
+    <meta property="og:title" content="GDG AKure in Review[2014]" /> 
     <meta property="og:site_name" content="GDG Akure" /> 
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="http://gdgakure.github.io" />
@@ -29,7 +29,7 @@
     <meta property="og:description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts." /> 
     
 
-    <title>Polymer 101: An Introduction to Material Design &bull; GDG Akure</title>
+    <title>GDG AKure in Review[2014] &bull; GDG Akure</title>
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
@@ -114,7 +114,7 @@
 
     <div class="jumbotron text-left">
         <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
-            <h1>Polymer 101: An Introduction to Material Design</h1>
+            <h1>GDG AKure in Review[2014]</h1>
         </div>
     </div>
 </section>
@@ -130,86 +130,36 @@
 
                     
                     
-                    <div class="post-body"><p> For everybody that watched the Google I/O keynote you'd know about the new material design that google is implementing in the web, and trying to change the way we have web experiences, if maybe you didnt have the opportunity to watch the Google I/O key note maybe you should just head over to Google Design and have a feel of how it actually is... this development was actually rolled out to be the main big thing for the upcoming android L but then Google decided to extend it to the web so the released a library called POLYMER check it out the website at <a href="http://polymer-project.org/">The Polymer website</a> kinda of like jQuery, Bootstrap to help with incorporating it in our webpages... it should be noted that apparently the design ability has being extended to Angular.JS too for yall that already have an hang of Angular.
+                    <div class="post-body"><p>In 2014, the tech community in Nigeria as a whole grew in leaps and bounds and the GDGAkure is glad to be a part of that growth. We come bringing news and innovation from the bigger tech community and we want to share what we have learned and hope that that would help us grow together as a community. 
+Since we started, we have had a tonne of events, some with major successes. Now it is time to bring everyone to be a full member of the community.</p>
+<p>Since we are dealing with a community of over 100 people who have different devices and communication preferences, we believe that communicating via a mailing list would be most effective. We have seen it work in other GDGs across Nigeria, Africa and the World at large and we believe it to work for us.</p>
+<p> 
+The URL for our mailing list is  <a href=">bitly.com/gdgakuremailinglist">bitly.com/gdgakuremailinglist</a> <br>
+The URL for our blog is <a href="gdgakure.blogspot.com">gdgakure.blogspot.com</a> <br>
+On Google plus, <a href="https://plus.google.com/+GdgakureBlogspot">https://plus.google.com/+GdgakureBlogspot</a>
 </p>
+<p> Over the course of the year, we have had two events with over 600participants in total <br>
+- Google FUTA <br>
+- Google I/O Extended </p>
+<p>Before the end of the year, we still want to have 3 event, we would like to involve as many people as possible in the planning of our future events. In the course of the year, we had 6 events and one large event and a DevFest.</p>
 
-<p>So leaving all the great news behind this is a kind of tutorial on setting up the polymer designer tool locally on your system, since for some of us maybe the steps on the polymer website is kind of overwhelming i know it was for me. if you've headed over to the polymer website to get a feel of it you'd notice that there is a designer tool on the website to help generate the polymer code for us... maybe you dont have the intermittent internet connection to do fiddle around with it this is the guide to help you set it up locally so you can have all the time in the whole world to fiddle and learn.</p>
+<p> We welcome any suggestion no matter how wild, afterall, we would be solving for our own X pretty soon. 
+We welcome feedback, concerns, critisism, anything that could help us grow, we are always ready to listen.
+</p>
+<p>
+	 DISCLAIMER: <br>
+If you did not get the solveforx joke, check out <a href="https://www.solveforx.com/">https://www.solveforx.com/</a> <br>
+I don't know why Google plus Decided to Add blogspot to our URI <br>
 
-<h5>So items we'll need or you probably have to download first:</h5>
-
-<ul>
-    <li>
-        you have to install a git client (http://git-scm.com/downloads) you'll need it cause you would be fetching files from github add git into your environment variables if you try typing <em>"git"</em> on your cmd prompt and you get path is not defined, add PATH ="C:\Program Files (x86)\Git\bin;"
-    </li>
-    <li>
-        Node.Js, head over to http://nodejs.org/download it just a 5mb installer or so also youll need to add node to your environment variables PATH= "C:\Users\yourusername\AppData\Roaming\npm;"
-    </li>
-    <li>
-       Next you need Bower on nodeJs after installing it open the command line and run <b><em>npm bower install</em></b>, bower helps you pull other components the developer used that the project requires to work 
-    </li>
-    <li>
-       polymer would not run without an HTTP server running, so inside your nodeJS run <b><em>npm install serve</em></b> it will help you install a mini  http server that can handle polymer all you have to do is cd into your project and run <em>"serve"</em> on your command line and it automatically serves your directory on <em>"http://localhost:3000"</em> 
-    </li>
-    <li>
-        then head over to the <a href="https://github.com/Polymer/designer">github polmer designer page</a> either clone the project or download the zip folder to your PC
-    </li>
-    <li>follow the steps in the README file</li>
-    <li>
-         cd into your project directory, run <b><em>bower install</em></b>, if youve done everything correctly you will see npm download quite some files. when it completes start up your serve with "serve" and load <em>"http://localhost:3000"</em> viola there you have it the designer locally.
-    </li>
-</ul>
-
-<h6> Now to gain an understanding of Polymer a little Hello World example:</h6>
-
-&nbsp
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;head&gt;</span>
-<span class="lineno"> 2</span>     <span class="nt">&lt;title&gt;</span>Test<span class="nt">&lt;/title&gt;</span>
-<span class="lineno"> 3</span>         <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
-<span class="lineno"> 4</span>         <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">&quot;X-UA-Compatible&quot;</span> <span class="na">content=</span><span class="s">&quot;IE-edge,chrome=1&quot;</span><span class="nt">&gt;</span>
-<span class="lineno"> 5</span>         <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="nt">&gt;</span>
-<span class="lineno"> 6</span> 
-<span class="lineno"> 7</span> <span class="c">&lt;!-- you can get the polymer.js and platform.js by running bower install polymer on node.js --&gt;</span>
-<span class="lineno"> 8</span>         <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="lineno"> 9</span> <span class="c">&lt;!-- one of the new concept rolled off polymer is the ability to import into an html just like the @import in css --&gt;</span>
-<span class="lineno">10</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;bower_components/polymer/polymer.html&quot;</span><span class="nt">&gt;</span>
-<span class="lineno">11</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
-<span class="lineno">12</span>          
-<span class="lineno">13</span>     <span class="nt">&lt;/head&gt;</span>
-<span class="lineno">14</span>     <span class="nt">&lt;body&gt;</span>
-<span class="lineno">15</span>     <span class="c">&lt;!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script --&gt;</span>
-<span class="lineno">16</span> 
-<span class="lineno">17</span>         <span class="nt">&lt;polymer-element</span> <span class="na">name=</span><span class="s">&quot;test&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
-<span class="lineno">18</span>      <span class="c">&lt;!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea --&gt;</span>
-<span class="lineno">19</span>             <span class="nt">&lt;template&gt;</span>
-<span class="lineno">20</span>               <span class="nt">&lt;style&gt;</span>
-<span class="lineno">21</span>                 <span class="nt">h1</span> <span class="p">{</span>
-<span class="lineno">22</span>                 <span class="k">color</span><span class="o">:</span> <span class="m">#ccf</span><span class="p">;</span>
-<span class="lineno">23</span>                     <span class="p">}</span>
-<span class="lineno">24</span>               <span class="nt">&lt;/style&gt;</span>
-<span class="lineno">25</span>                 <span class="nt">&lt;h1&gt;</span>Hello Eyo!<span class="nt">&lt;/h1&gt;</span>
-<span class="lineno">26</span>             <span class="nt">&lt;/template&gt;</span>
-<span class="lineno">27</span>         <span class="nt">&lt;/polymer-element&gt;</span>
-<span class="lineno">28</span> <span class="c">&lt;!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag --&gt;</span>
-<span class="lineno">29</span> <span class="c">&lt;!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  --&gt;</span>
-<span class="lineno">30</span>         <span class="nt">&lt;test&gt;&lt;/test&gt;</span>
-<span class="lineno">31</span> <span class="c">&lt;!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance--&gt;</span>
-<span class="lineno">32</span> <span class="nt">&lt;h1&gt;</span>I am default<span class="nt">&lt;/h1&gt;</span>
-<span class="lineno">33</span> 
-<span class="lineno">34</span>     <span class="nt">&lt;/body&gt;</span></code></pre></div>
-
-
-<p>P.S. You need to have an HTTP server for any of this run, else it'd seem like your getting it wrong</p></div>
+</p></div>
 
                     <div id="page-navigation">
                         <div class="left pull-left">
                             
-                                <a href="/blog/GDG-Akure-in-review-2014" title="GDG AKure in Review[2014]">&laquo; GDG AKure in...</a>
-                            
                         </div>
                         <div class="right pull-right">
                             
-                                <a href="/blog/GCDC-Akure" title="#GCDC Akure">#GCDC Akure &raquo;</a>
+                                <a href="/blog/Polymer-101-an-introduction-to-material-design" title="Polymer 101: An Introduction to Material Design">Polymer 101:... &raquo;</a>
                             
                         </div>
                     </div>
