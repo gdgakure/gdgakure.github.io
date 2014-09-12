@@ -99,9 +99,10 @@
             </li> -->
             <li><a  href="/akure/">Akure</a>
             </li>
-
+            <!--
             <li><a  href="/register/">Material Design with Polymer</a>
             </li>
+            -->
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             <!-- <li><a href="#">Buy tickets</a>
@@ -176,30 +177,29 @@
 <span class="lineno"> 8</span>         <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="lineno"> 9</span> <span class="c">&lt;!-- one of the new concept rolled off polymer is the ability to import into an html just like the @import in css --&gt;</span>
 <span class="lineno">10</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;bower_components/polymer/polymer.html&quot;</span><span class="nt">&gt;</span>
-<span class="lineno">11</span>         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
-<span class="lineno">12</span>          
-<span class="lineno">13</span>     <span class="nt">&lt;/head&gt;</span>
-<span class="lineno">14</span>     <span class="nt">&lt;body&gt;</span>
-<span class="lineno">15</span>     <span class="c">&lt;!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script --&gt;</span>
-<span class="lineno">16</span> 
-<span class="lineno">17</span>         <span class="nt">&lt;polymer-element</span> <span class="na">name=</span><span class="s">&quot;test&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
-<span class="lineno">18</span>      <span class="c">&lt;!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea --&gt;</span>
-<span class="lineno">19</span>             <span class="nt">&lt;template&gt;</span>
-<span class="lineno">20</span>               <span class="nt">&lt;style&gt;</span>
-<span class="lineno">21</span>                 <span class="nt">h1</span> <span class="p">{</span>
-<span class="lineno">22</span>                 <span class="k">color</span><span class="o">:</span> <span class="m">#ccf</span><span class="p">;</span>
-<span class="lineno">23</span>                     <span class="p">}</span>
-<span class="lineno">24</span>               <span class="nt">&lt;/style&gt;</span>
-<span class="lineno">25</span>                 <span class="nt">&lt;h1&gt;</span>Hello Eyo!<span class="nt">&lt;/h1&gt;</span>
-<span class="lineno">26</span>             <span class="nt">&lt;/template&gt;</span>
-<span class="lineno">27</span>         <span class="nt">&lt;/polymer-element&gt;</span>
-<span class="lineno">28</span> <span class="c">&lt;!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag --&gt;</span>
-<span class="lineno">29</span> <span class="c">&lt;!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  --&gt;</span>
-<span class="lineno">30</span>         <span class="nt">&lt;test&gt;&lt;/test&gt;</span>
-<span class="lineno">31</span> <span class="c">&lt;!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance--&gt;</span>
-<span class="lineno">32</span> <span class="nt">&lt;h1&gt;</span>I am default<span class="nt">&lt;/h1&gt;</span>
-<span class="lineno">33</span> 
-<span class="lineno">34</span>     <span class="nt">&lt;/body&gt;</span></code></pre></div>
+<span class="lineno">11</span>          
+<span class="lineno">12</span>     <span class="nt">&lt;/head&gt;</span>
+<span class="lineno">13</span>     <span class="nt">&lt;body&gt;</span>
+<span class="lineno">14</span>     <span class="c">&lt;!-- we start my creating a polymer element thats named, attr noscript is added to let the browser no not to expect any script --&gt;</span>
+<span class="lineno">15</span> 
+<span class="lineno">16</span>         <span class="nt">&lt;polymer-element</span> <span class="na">name=</span><span class="s">&quot;test&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
+<span class="lineno">17</span>      <span class="c">&lt;!-- we then create a template to encase our content, this is all based on the shadow DOM concept, even I am just trying to grasp the whole idea --&gt;</span>
+<span class="lineno">18</span>             <span class="nt">&lt;template&gt;</span>
+<span class="lineno">19</span>               <span class="nt">&lt;style&gt;</span>
+<span class="lineno">20</span>                 <span class="nt">h1</span> <span class="p">{</span>
+<span class="lineno">21</span>                 <span class="k">color</span><span class="o">:</span> <span class="m">#ccf</span><span class="p">;</span>
+<span class="lineno">22</span>                     <span class="p">}</span>
+<span class="lineno">23</span>               <span class="nt">&lt;/style&gt;</span>
+<span class="lineno">24</span>                 <span class="nt">&lt;h1&gt;</span>Hello Eyo!<span class="nt">&lt;/h1&gt;</span>
+<span class="lineno">25</span>             <span class="nt">&lt;/template&gt;</span>
+<span class="lineno">26</span>         <span class="nt">&lt;/polymer-element&gt;</span>
+<span class="lineno">27</span> <span class="c">&lt;!-- now to call what we wrote inside our polymer element template, we simply just use the name of our polymer element as a tag --&gt;</span>
+<span class="lineno">28</span> <span class="c">&lt;!--- and it displays the info in the named element, so it should be noted that the styles applied inside the elemnt are encapusalted to test only  --&gt;</span>
+<span class="lineno">29</span>         <span class="nt">&lt;test&gt;&lt;/test&gt;</span>
+<span class="lineno">30</span> <span class="c">&lt;!-- any other normal html tag placed anywhere inside the html document is exposed to the global style, for instance--&gt;</span>
+<span class="lineno">31</span>         <span class="nt">&lt;h1&gt;</span>I am default<span class="nt">&lt;/h1&gt;</span>
+<span class="lineno">32</span> 
+<span class="lineno">33</span>     <span class="nt">&lt;/body&gt;</span></code></pre></div>
 
 
 <p>P.S. You need to have an HTTP server for any of this run, else it'd seem like your getting it wrong</p></div>
