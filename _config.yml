@@ -8,7 +8,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 title: GDG Akure
 email: tomiwaijaware@gmail.com
 description: "Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts."
-url: "http://gdgakure.github.io"
+url: "http://akure.gdg.ng"
 permalink: /blog/:title
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
