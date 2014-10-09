@@ -3,8 +3,8 @@
   <channel>
     <title>GDG Akure</title>
     <description>Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.</description>
-    <link>http://gdgakure.github.io/</link>
-    <atom:link href="http://gdgakure.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://akure.gdg.ng/</link>
+    <atom:link href="http://akure.gdg.ng/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>GDG AKure in Review[2014]</title>
@@ -31,8 +31,8 @@ I don&#39;t know why Google plus Decided to Add blogspot to our URI &lt;br&gt;
 
 &lt;/p&gt;</description>
         <pubDate>Wed, 27 Aug 2014 00:00:00 +0100</pubDate>
-        <link>http://gdgakure.github.io/blog/GDG-Akure-in-review-2014</link>
-        <guid isPermaLink="true">http://gdgakure.github.io/blog/GDG-Akure-in-review-2014</guid>
+        <link>http://akure.gdg.ng/blog/GDG-Akure-in-review-2014</link>
+        <guid isPermaLink="true">http://akure.gdg.ng/blog/GDG-Akure-in-review-2014</guid>
       </item>
     
       <item>
@@ -107,8 +107,8 @@ I don&#39;t know why Google plus Decided to Add blogspot to our URI &lt;br&gt;
 
 &lt;p&gt;P.S. You need to have an HTTP server for any of this run, else it&#39;d seem like your getting it wrong&lt;/p&gt;</description>
         <pubDate>Mon, 11 Aug 2014 00:00:00 +0100</pubDate>
-        <link>http://gdgakure.github.io/blog/Polymer-101-an-introduction-to-material-design</link>
-        <guid isPermaLink="true">http://gdgakure.github.io/blog/Polymer-101-an-introduction-to-material-design</guid>
+        <link>http://akure.gdg.ng/blog/Polymer-101-an-introduction-to-material-design</link>
+        <guid isPermaLink="true">http://akure.gdg.ng/blog/Polymer-101-an-introduction-to-material-design</guid>
       </item>
     
       <item>
@@ -136,8 +136,8 @@ Google + Event Page is here &lt;a href=&quot;http://goo.gl/oajk6g&quot;&gt;http:
 	&lt;li&gt;Time: 10am to 2pm&lt;/li&gt;
 &lt;/ul&gt;</description>
         <pubDate>Wed, 02 Oct 2013 00:00:00 +0100</pubDate>
-        <link>http://gdgakure.github.io/blog/GCDC-Akure</link>
-        <guid isPermaLink="true">http://gdgakure.github.io/blog/GCDC-Akure</guid>
+        <link>http://akure.gdg.ng/blog/GCDC-Akure</link>
+        <guid isPermaLink="true">http://akure.gdg.ng/blog/GCDC-Akure</guid>
       </item>
     
       <item>
@@ -167,8 +167,8 @@ The Session Resuned at 2:00 with a Session on Google App Engine taken by &lt;a h
 
 </description>
         <pubDate>Sat, 14 Sep 2013 00:00:00 +0100</pubDate>
-        <link>http://gdgakure.github.io/blog/minutes-after-devfest-akure</link>
-        <guid isPermaLink="true">http://gdgakure.github.io/blog/minutes-after-devfest-akure</guid>
+        <link>http://akure.gdg.ng/blog/minutes-after-devfest-akure</link>
+        <guid isPermaLink="true">http://akure.gdg.ng/blog/minutes-after-devfest-akure</guid>
       </item>
     
       <item>
@@ -182,8 +182,8 @@ The Session Resuned at 2:00 with a Session on Google App Engine taken by &lt;a h
 
 &lt;img src=&quot;http://www.google.com/images/icons/feature/globe_bubbles-256.png&quot; /&gt;</description>
         <pubDate>Wed, 24 Jul 2013 00:00:00 +0100</pubDate>
-        <link>http://gdgakure.github.io/blog/map-up-akure</link>
-        <guid isPermaLink="true">http://gdgakure.github.io/blog/map-up-akure</guid>
+        <link>http://akure.gdg.ng/blog/map-up-akure</link>
+        <guid isPermaLink="true">http://akure.gdg.ng/blog/map-up-akure</guid>
       </item>
     
   </channel>

@@ -8,7 +8,7 @@
   thumbnailUrl: TomiwaIjaware.jpg
   rockstar: true
   ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+    - {abbr: "GDG Akure", title: "Community Manager", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
     - {name: "google-plus", link: "https://plus.google.com/+TomiwaIjaware/"}
     - {name: "twitter", link: "https://twitter.com/e911miri/"}
@@ -23,8 +23,37 @@
   thumbnailUrl: AkinwandeAdegbola.jpg
   rockstar: true
   ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+    - {abbr: "GDG Akure", title: "Community Manager", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/u/0/+AkinwandeAdegbola/"}
     - {name: "twitter", link: "https://twitter.com/wandechris/"}
     - {name: "github", link: "https://github.com/wandechris/"}
+- 
+  id: 5
+  name: "Oluwadamilare"
+  surname: "Ibrahim"
+  company: "Attitude Developers"
+  title: "Technological innovations lead"
+  bio: "Am an apps developer who loves exploring new technologies and making the best use of them to help my community and the world at large"
+  thumbnailUrl: IbrahimOluwadamilare.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "GDG Akure", title: "Community Manager", url: "https://developers.google.com/groups/chapter/113800801882072410635/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+IbrahimOluwadamilare/"}
+    - {name: "twitter", link: "https://twitter.com/iodamilare/"}
+    - {name: "github", link: "https://github.com/IbrahimOluwadamilare/"}
+- 
+  id: 
+  name: "Tomiwa"
+  surname: "Adegbola"
+  company: "Department of Pertroluem Resources"
+  title: "Geophysicist Intern"
+  bio: "Innovative, friendly, motivated."
+  thumbnailUrl: TomiwaAdegbola.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "GDG Akure", title: "Community Manager", url: "https://developers.google.com/groups/chapter/113800801882072410635/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+TomiwaAdegbola/"}
+    - {name: "twitter", link: "https://twitter.com/charlidtoms/"}
