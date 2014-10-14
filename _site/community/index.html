@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/Blog">
+<html lang="en">
 
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="Eyo Okon Eyo, GDG Akure">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
     <meta name="description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
-    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, akure">
+    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, lviv">
+    <meta name="google-site-verification" content="" />
     <link rel="canonical" href="http://akure.gdg.ng">
-    <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Community">
-    <meta itemprop="description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.">
-    <meta itemprop="image" content="http://akure.gdg.ng/img/seo/sharing-google-plus.png">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@GDGAkure">
@@ -28,7 +25,6 @@
     <meta property="og:image" content="http://akure.gdg.ng/img/seo/sharing-facebook.png" />
     <meta property="og:description" content="Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts." /> 
     
-
     <title>Community &bull; GDG Akure</title>
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
@@ -64,15 +60,16 @@
         <div class="loader-gplus"></div>
     </div>
 
-    <div id="st-container" class="st-container">
+    <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
             <div class="st-content">
 
                 <!-- Begin Top Section -->
-<section id="top-section" class="top-section image-section">
+<section id="top-section" class="top-section image-section " style="">
     <div class="overlay gradient-overlay"></div>
 
     <header id="top-header" class="top-header">
+    <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
         <use xlink:href="/img/sprites/sprites.svg#icon-menu"></use>
     </svg>
@@ -82,64 +79,71 @@
     <nav class="st-menu st-effect" id="menu">
         <div class="logo-navbar logo logo-dark visible-xs"></div>
         <ul>
-            <li><a  href="/">Home</a>
+            
+            <li>
+                <a class=""  href=" / " >Home</a>
             </li>
-            <li><a  href="/blog/">Blog</a>
+            
+            <li>
+                <a class=""  href=" /blog/ " >Blog</a>
             </li>
-            <!-- <li><a href="#">Schedule</a>
-            </li> -->
-
-            <!--
-            <li><a  href="/speakers/">Speakers</a>
-            </li> -->
-
-            <li><a  href="/events/">Events</a>
+            
+            <li>
+                <a class=""  href=" /events/ " >Events</a>
             </li>
-
-            <!-- <li><a href="#">Hackathon</a>
-            </li> -->
-            <li><a  href="/akure/">Akure</a>
+            
+            <li>
+                <a class=""  href=" /hackathon/ " >DevFest 2014</a>
             </li>
-            <!--
-            <li><a  href="/register/">Material Design with Polymer</a>
+            
+            <li>
+                <a class="current"  href=" /community/ " >Community</a>
             </li>
-            -->
+            
+            <li>
+                <a class=""  href=" /akure/ " >Meet Akure</a>
+            </li>
+            
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
-            <!-- <li><a href="#">Buy tickets</a>
-            </li> -->
-            <li><a href="https://plus.google.com/u/0/communities/106484271764040223307" target="_blank">Become a Member</a>
+            
+            <li>
+                <a href=" https://plus.google.com/u/0/communities/106484271764040223307 " target="_blank">Become a Member</a>
             </li>
+            
         </ul>
-        <span id="right-nav-button" class="right-nav-button right-nav-button-hidden btn btn-primary waves-element waves-button waves-light waves-will-raise pull-right hidden-xs hidden-sm">
-            <a href="https://plus.google.com/u/0/communities/106484271764040223307" target="_blank">Become a Member</a>
-        </span>
+        
+        <a href=" https://docs.google.com/forms/d/1QmKxCLY887lzUGACNUtANQYvH166DHnmNDigysPCVYQ/viewform " class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm" target="_blank">
+            Register for DevFest
+        </a>
+        
     </nav>
 </header>
-
-    <div class="jumbotron text-left">
-        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
-            <h1>Community</h1>
-        </div>
+	<div class="content-wrapper">
+	    <div class="jumbotron text-left">
+	        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+	            <h1>Community</h1>
+	        </div>
+	    </div>
     </div>
 </section>
 <!-- End Top Section -->
 
-<!-- Begin Speakers List 2-->
+<!-- Managers List-->
 <section id="speakers">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
             
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
-                <div class="zoe-effect ribbon-activator waves-element waves-block waves-light" data-toggle="modal" data-target="#speakerDetail-">
-                    <figure style="background-image: url(/img/communityManagers/TomiwaIjaware.jpg)">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-1">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/people/TomiwaIjaware.jpg)">
                         <div class="overlay solid-overlay"></div>
                         
                         <ul class="ribbon-wrapper">
                             
                             <li class="gdg akure">
                                 <p class="ribbon abbr">GDG Akure</p>
-                                <p class="ribbon full-title">Community Manager</p>
+                                <p class="ribbon full-title">Community Lead</p>
                             </li>
                             
                         </ul>
@@ -176,8 +180,8 @@
             </div>
             
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
-                <div class="zoe-effect ribbon-activator waves-element waves-block waves-light" data-toggle="modal" data-target="#speakerDetail-">
-                    <figure style="background-image: url(/img/communityManagers/AkinwandeAdegbola.jpg)">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-2">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/people/AkinwandeAdegbola.jpg)">
                         <div class="overlay solid-overlay"></div>
                         
                         <ul class="ribbon-wrapper">
@@ -221,8 +225,8 @@
             </div>
             
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
-                <div class="zoe-effect ribbon-activator waves-element waves-block waves-light" data-toggle="modal" data-target="#speakerDetail-">
-                    <figure style="background-image: url(/img/communityManagers/IbrahimOluwadamilare.jpg)">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-3">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/people/IbrahimOluwadamilare.jpg)">
                         <div class="overlay solid-overlay"></div>
                         
                         <ul class="ribbon-wrapper">
@@ -266,8 +270,8 @@
             </div>
             
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
-                <div class="zoe-effect ribbon-activator waves-element waves-block waves-light" data-toggle="modal" data-target="#speakerDetail-">
-                    <figure style="background-image: url(/img/communityManagers/TomiwaAdegbola.jpg)">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-4">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/people/TomiwaAdegbola.jpg)">
                         <div class="overlay solid-overlay"></div>
                         
                         <ul class="ribbon-wrapper">
@@ -305,13 +309,10 @@
             </div>
             
         </div>
-        <span class="btn btn-primary waves-element waves-button waves-light waves-will-raise" style="margin-top: 25px;">
-               <a class="bottom-section-link" href="https://plus.google.com/u/0/communities/106484271764040223307" target="_blank">Become a Member</a>
-        </span>        
+        <a href="http://bit.ly/dfua-c4p" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a Member</a>         
     </div>
 </section>
-<!-- End Speakers List 2 -->
-
+<!-- End Managers List -->
 
  
 
@@ -324,55 +325,76 @@
 		<div class="logo logo-footer logo-gray pull-right"></div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 col-sm-4 col-xs-6">
+		
+        
+		<div class="col-md-4 col-xs-6">
 			<h5>Links</h5>
 			<ul>
-				<li><a href="https://developers.google.com" target="_blank">Google Developers</a>
-				</li>
+				
+				<li><a href=" http://akure.gdg.ng " target="_blank">Akure.GDG.ng</a></li>
+				
+				<li><a href=" https://developers.google.com " target="_blank">Google Developers</a></li>
+				
 			</ul>
+		</div>
+		
+        
+		<div class="col-md-4 col-xs-6">
+			<h5>Contacts</h5>
+			<ul>
+				
+				<li><a href=" mailto:tomiwaijaware@gmail.com " target="_blank">tomiwaijaware@gmail.com</a></li>
+				
+			</ul>
+		</div>
+		
+        
+		<div class="col-md-4 col-xs-6">
+			<h5>FAQ</h5>
+			<ul>
+				
+				<li><a href=" /cod/ " >Code of Conduct</a></li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-xs-12">
 			<ul class="social-links">
+				
 				<li>
-					<a href="https://plus.google.com/communities/106484271764040223307" target="_blank">
+					<a href=" https://plus.google.com/communities/106484271764040223307 " target="_blank">
 						<svg class="icon icon-google-plus" viewBox="0 0 30 32">
 							<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
 						</svg>
 					</a>
 				</li>
+				
 				<li>
-					<a href="https://twitter.com/intent/user?screen_name=GDGAkure" target="_blank">
+					<a href=" https://twitter.com/intent/user?screen_name=GDGAkure " target="_blank">
 						<svg class="icon icon-twitter" viewBox="0 0 30 32">
 							<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
 						</svg>
 					</a>
 				</li>
+				
 				<li>
-					<a href="#" target="_blank">
+					<a href=" # " target="_blank">
 						<svg class="icon icon-facebook" viewBox="0 0 30 32">
 							<use xlink:href="/img/sprites/sprites.svg#icon-facebook"></use>
 						</svg>
 					</a>
 				</li>
+				
 				<li>
-					<a href="/feed.xml" target="_blank">
+					<a href=" /feed.xml " target="_blank">
 						<svg class="icon icon-rss" viewBox="0 0 30 32">
 							<use xlink:href="/img/sprites/sprites.svg#icon-rss"></use>
 						</svg>
 					</a>
 				</li>
-			</ul>
-		</div>
-		<div class="col-md-4 col-sm-4 col-xs-6">
-			<h5>Contacts</h5>
-			<ul>
-				<li><a href="mailto:tomiwaijaware@gmail.com" target="_blank">tomiwaijaware@gmail.com</a>
-				</li>
-			</ul>
-		</div>
-		<div class="col-md-4 col-sm-4 col-xs-6">
-			<h5>FAQ</h5>
-			<ul>
-				<li><a href="/cod/">Code of Conduct</a>
-				</li>
+				
 			</ul>
 		</div>
 	</div>
@@ -380,7 +402,7 @@
 		<!-- Please don't delete this line-->
 		<div class="col-md-6">
 			<p class="copyright">
-				&copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a> Enhanced for <a href="https://plus.google.com/communities/106484271764040223307">GDG Akure</a> by <a href="plus.google.com/+EyoOkonEyo/about">Eyo O. E.</a>
+				&copy; 2014 Based on <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a>. Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about" target="_blank">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
 			</p>
 		</div>
 	</div>
@@ -393,10 +415,10 @@
 
      
     	<!-- Begin Speakers Modals -->
-<div class="modals">
+<div class="modals" class="modals">
 	
 		
-		<div class="modal fade text-left people-modal" id="speakerDetail-3" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-3" aria-hidden="true">
+		<div class="modal fade text-left people-modal" id="speakerDetail-1" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-1" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-body">
@@ -408,11 +430,13 @@
 						</div>
 						
 							
+										
+							
+										
+							
 								
 									
-										<h4>Material design: Visual style and imagery</h4>
-										<span class="theme-language"><span class="caption">Language: </span>en</span>
-										<p class="theme-description">This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly.</p>
+								
 									
 										
 							
@@ -439,20 +463,239 @@
 						<div class="people-details">
 							<div class="row">
 								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url(/img/communityManagers/DawidOstrowski.jpg)"></div>
+									<div class="flow-img img-circle people-img" style="background-image: url(/img/people/TomiwaIjaware.jpg)"></div>
 								</div>
 								<div class="col-md-10 col-sm-10 details">
-									<p class="name">Dawid Ostrowski
-										<span class="position">Developer Relations Program Manager, Google Poland</span>
+									<p class="name">Tomiwa Ijaware
+										<span class="position">Software Engineer, 500shops</span>
 									</p>
 									
-									<p class="about">Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action.</p>
+									<div class="modal-ribbon-wrapper">
+			                            
+			                               <a class="modal-ribbon" href="https://developers.google.com/groups/chapter/110301321530950732281/" target="_blank">Community Lead</a>   
+			                            
+			                        </div>
+			                        
+									<p class="about">Tomiwa is a true technology enthusiast who enjoys collaborating with developers across Africa to create amazing new prodicts and services. He is a experienced software engineer and programmer who first ran his first program at 9. He is particularly interested in empowering startups interested in providing truly global problems from a local context. He is a true volunteer and has volunteered for several causes including serving his country in the National Youth Service Corps as an anti corruption agent. He is very comfortable working as an individual as well as on a team.</p>
 									<ul class="social">
 										
 											<li>
-												<a href="https://plus.google.com/+DawidOstrowski/" target="_blank">
+												<a href="https://plus.google.com/+TomiwaIjaware/" target="_blank">
 													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
 														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://twitter.com/e911miri/" target="_blank">
+													<svg class="icon icon-twitter" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://github.com/e911miri/" target="_blank">
+													<svg class="icon icon-github" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+													</svg>
+												</a>
+											</li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
+		
+		<div class="modal fade text-left people-modal" id="speakerDetail-2" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icon icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						
+							
+										
+							
+										
+							
+								
+									
+								
+									
+										
+							
+								
+									
+								
+									
+										
+							
+								
+									
+										
+							
+								
+									
+										
+							
+								
+									
+										
+							
+							<hr>
+						
+						<div class="people-details">
+							<div class="row">
+								<div class="col-md-2 col-sm-2">
+									<div class="flow-img img-circle people-img" style="background-image: url(/img/people/AkinwandeAdegbola.jpg)"></div>
+								</div>
+								<div class="col-md-10 col-sm-10 details">
+									<p class="name">Akinwande Adegbola
+										<span class="position">Mobile/Software Developer, Kaizen venture Partners</span>
+									</p>
+									
+									<div class="modal-ribbon-wrapper">
+			                            
+			                               <a class="modal-ribbon" href="https://developers.google.com/groups/chapter/110301321530950732281/" target="_blank">Community Manager</a>   
+			                            
+			                        </div>
+			                        
+									<p class="about">i'll update this section later :)</p>
+									<ul class="social">
+										
+											<li>
+												<a href="https://plus.google.com/u/0/+AkinwandeAdegbola/" target="_blank">
+													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://twitter.com/wandechris/" target="_blank">
+													<svg class="icon icon-twitter" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://github.com/wandechris/" target="_blank">
+													<svg class="icon icon-github" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+													</svg>
+												</a>
+											</li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
+		
+		<div class="modal fade text-left people-modal" id="speakerDetail-3" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icon icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						
+							
+										
+							
+										
+							
+								
+									
+										<h4>Material design: Visual style and imagery</h4>
+										<span class="theme-metadata"><span class="caption">Language: </span>en</span>
+										<span class="theme-metadata"><span class="caption">Complexity: </span>Intermediate</span>
+										<p class="theme-description">This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly.</p>
+									
+								
+									
+										
+							
+								
+									
+								
+									
+										
+							
+								
+									
+										
+							
+								
+									
+										
+							
+								
+									
+										
+							
+							<hr>
+						
+						<div class="people-details">
+							<div class="row">
+								<div class="col-md-2 col-sm-2">
+									<div class="flow-img img-circle people-img" style="background-image: url(/img/people/IbrahimOluwadamilare.jpg)"></div>
+								</div>
+								<div class="col-md-10 col-sm-10 details">
+									<p class="name">Oluwadamilare Ibrahim
+										<span class="position">Technological innovations lead, Attitude Developers</span>
+									</p>
+									
+									<div class="modal-ribbon-wrapper">
+			                            
+			                               <a class="modal-ribbon" href="https://developers.google.com/groups/chapter/113800801882072410635/" target="_blank">Community Manager</a>   
+			                            
+			                        </div>
+			                        
+									<p class="about">Am an apps developer who loves exploring new technologies and making the best use of them to help my community and the world at large</p>
+									<ul class="social">
+										
+											<li>
+												<a href="https://plus.google.com/u/0/+IbrahimOluwadamilare/" target="_blank">
+													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://twitter.com/iodamilare/" target="_blank">
+													<svg class="icon icon-twitter" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+													</svg>
+												</a>
+											</li>
+										
+											<li>
+												<a href="https://github.com/IbrahimOluwadamilare/" target="_blank">
+													<svg class="icon icon-github" viewBox="0 0 30 32">
+														<use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
 													</svg>
 												</a>
 											</li>
@@ -480,6 +723,12 @@
 						</div>
 						
 							
+										
+							
+										
+							
+								
+									
 								
 									
 										
@@ -487,7 +736,8 @@
 								
 									
 										<h4>Building Cloud-powered wearable Apps</h4>
-										<span class="theme-language"><span class="caption">Language: </span>en</span>
+										<span class="theme-metadata"><span class="caption">Language: </span>en</span>
+										<span class="theme-metadata"><span class="caption">Complexity: </span>Beginner</span>
 										<p class="theme-description">Android wear extends the Android platform to a new generation of wearable devices. The user experience is designed specifically for wearables. In this session you’ll see how to use the Android Wear SDK to build a connected cloud-powered application. Using Android Studio and it’s cloud extensions, you’ll see how to build an app that ‘listens’ for changes in stock prices, and notifies a wearable device. You’ll also see how to use voice controls on the device to trigger interactions with the app, such as buying or selling the stock after a notification. Call to action: Get the SDK and start building apps today!</p>
 									
 								
@@ -497,7 +747,8 @@
 								
 									
 										<h4>The world is your playground - go global with Google</h4>
-										<span class="theme-language"><span class="caption">Language: </span>en</span>
+										<span class="theme-metadata"><span class="caption">Language: </span>en</span>
+										<span class="theme-metadata"><span class="caption">Complexity: </span>Expert</span>
 										<p class="theme-description">More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you.</p>
 									
 										
@@ -515,114 +766,24 @@
 						<div class="people-details">
 							<div class="row">
 								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url(/img/communityManagers/DmytroDanylyk.jpg)"></div>
+									<div class="flow-img img-circle people-img" style="background-image: url(/img/people/TomiwaAdegbola.jpg)"></div>
 								</div>
 								<div class="col-md-10 col-sm-10 details">
-									<p class="name">Dmytro Danylyk
-										<span class="position">Android Developer, Lemberg Solutions Limited</span>
-									</p>
-									
-									<p class="about"><p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p></p>
-									<ul class="social">
-										
-											<li>
-												<a href="https://plus.google.com/+DmytroDanylyk" target="_blank">
-													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
-													</svg>
-												</a>
-											</li>
-										
-											<li>
-												<a href="https://twitter.com/dmytrodanylyk" target="_blank">
-													<svg class="icon icon-twitter" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
-													</svg>
-												</a>
-											</li>
-										
-											<li>
-												<a href="https://github.com/dmytrodanylyk" target="_blank">
-													<svg class="icon icon-github" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
-													</svg>
-												</a>
-											</li>
-										
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	
-		
-		<div class="modal fade text-left people-modal" id="speakerDetail-5" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-5" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="close">
-							<svg class="icon icon-cross" viewBox="0 0 32 32">
-								<use xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
-							</svg>
-							<div class="close-mask" data-dismiss="modal"></div>
-						</div>
-						
-							
-								
-									
-										
-							
-								
-									
-								
-									
-										<h4>Building Cloud-powered wearable Apps</h4>
-										<span class="theme-language"><span class="caption">Language: </span>en</span>
-										<p class="theme-description">Android wear extends the Android platform to a new generation of wearable devices. The user experience is designed specifically for wearables. In this session you’ll see how to use the Android Wear SDK to build a connected cloud-powered application. Using Android Studio and it’s cloud extensions, you’ll see how to build an app that ‘listens’ for changes in stock prices, and notifies a wearable device. You’ll also see how to use voice controls on the device to trigger interactions with the app, such as buying or selling the stock after a notification. Call to action: Get the SDK and start building apps today!</p>
-									
-										
-							
-								
-									
-										
-							
-								
-									
-										
-							
-								
-									
-										
-							
-							<hr>
-						
-						<div class="people-details">
-							<div class="row">
-								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url(/img/communityManagers/MateuszHerych.jpg)"></div>
-								</div>
-								<div class="col-md-10 col-sm-10 details">
-									<p class="name">Mateusz Herych
-										<span class="position">Software Engineer, Base CRM, GDG Krakow</span>
+									<p class="name">Tomiwa Adegbola
+										<span class="position">Geophysicist Intern, Department of Pertroluem Resources</span>
 									</p>
 									
 									<div class="modal-ribbon-wrapper">
 			                            
-			                               <a class="modal-ribbon" href="ribbon["url"]" target="_blank">Google Developer Expert</a>   
-			                            
-			                               <a class="modal-ribbon" href="ribbon["url"]" target="_blank">Google Developer Group</a>   
+			                               <a class="modal-ribbon" href="https://developers.google.com/groups/chapter/113800801882072410635/" target="_blank">Community Manager</a>   
 			                            
 			                        </div>
 			                        
-									<p class="about">Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive.</p>
+									<p class="about">Innovative, friendly, motivated.</p>
 									<ul class="social">
 										
 											<li>
-												<a href="https://plus.google.com/+MateuszHerych" target="_blank">
+												<a href="https://plus.google.com/u/0/+TomiwaAdegbola/" target="_blank">
 													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
 														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
 													</svg>
@@ -630,181 +791,9 @@
 											</li>
 										
 											<li>
-												<a href="https://twitter.com/mherych" target="_blank">
+												<a href="https://twitter.com/charlidtoms/" target="_blank">
 													<svg class="icon icon-twitter" viewBox="0 0 30 32">
 														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
-													</svg>
-												</a>
-											</li>
-										
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	
-		
-		<div class="modal fade text-left people-modal" id="speakerDetail-6" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-6" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="close">
-							<svg class="icon icon-cross" viewBox="0 0 32 32">
-								<use xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
-							</svg>
-							<div class="close-mask" data-dismiss="modal"></div>
-						</div>
-						
-							
-								
-									
-										
-							
-								
-									
-								
-									
-										
-							
-								
-									
-										
-							
-								
-									
-										<h4>Polymer: Interacting with Google Services using nothing but HTML</h4>
-										<span class="theme-language"><span class="caption">Language: </span>uk</span>
-										<p class="theme-description">Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms.</p>
-									
-										
-							
-								
-									
-										
-							
-							<hr>
-						
-						<div class="people-details">
-							<div class="row">
-								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url(/img/communityManagers/RomanMazur.jpg)"></div>
-								</div>
-								<div class="col-md-10 col-sm-10 details">
-									<p class="name">Roman Mazur
-										<span class="position">Head of Android/Java Unit, Stanfy, GDG Kyiv</span>
-									</p>
-									
-									<div class="modal-ribbon-wrapper">
-			                            
-			                               <a class="modal-ribbon" href="ribbon["url"]" target="_blank">Google Developer Group</a>   
-			                            
-			                        </div>
-			                        
-									<p class="about">Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv.</p>
-									<ul class="social">
-										
-											<li>
-												<a href="https://plus.google.com/+RomanMazur/" target="_blank">
-													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
-													</svg>
-												</a>
-											</li>
-										
-											<li>
-												<a href="http://twitter.com/roman_mazur" target="_blank">
-													<svg class="icon icon-twitter" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
-													</svg>
-												</a>
-											</li>
-										
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	
-		
-		<div class="modal fade text-left people-modal" id="speakerDetail-7" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-7" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="close">
-							<svg class="icon icon-cross" viewBox="0 0 32 32">
-								<use xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
-							</svg>
-							<div class="close-mask" data-dismiss="modal"></div>
-						</div>
-						
-							
-								
-									
-										
-							
-								
-									
-								
-									
-										
-							
-								
-									
-										
-							
-								
-									
-										
-							
-								
-									
-										<h4>Test: Interacting with Google Services using nothing but HTML</h4>
-										<span class="theme-language"><span class="caption">Language: </span>en</span>
-										<p class="theme-description">Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms.</p>
-									
-										
-							
-							<hr>
-						
-						<div class="people-details">
-							<div class="row">
-								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url(/img/communityManagers/ValentynShybanov.jpg)"></div>
-								</div>
-								<div class="col-md-10 col-sm-10 details">
-									<p class="name">Valentyn Shybanov
-										<span class="position">Software engineer/country manager, Twinfield, GDG Kyiv</span>
-									</p>
-									
-									<div class="modal-ribbon-wrapper">
-			                            
-			                               <a class="modal-ribbon" href="ribbon["url"]" target="_blank">Google Developer Group</a>   
-			                            
-			                        </div>
-			                        
-									<p class="about">Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences.</p>
-									<ul class="social">
-										
-											<li>
-												<a href="https://google.com/+ValentynShybanov" target="_blank">
-													<svg class="icon icon-google-plus" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
-													</svg>
-												</a>
-											</li>
-										
-											<li>
-												<a href="http://olostan.name/" target="_blank">
-													<svg class="icon icon-site" viewBox="0 0 30 32">
-														<use xlink:href="/img/sprites/sprites.svg#icon-site"></use>
 													</svg>
 												</a>
 											</li>
@@ -824,6 +813,8 @@
  
      
 
+     
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -835,21 +826,182 @@
 
 </script>
     
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- jQuery local fallback -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
-    window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js><\/script>')
+        window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js><\/script>')
     </script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Bootstrap JS local fallback -->
     <script>
     if (typeof($.fn.modal) === 'undefined') {
         document.write('<script src="/js/bootstrap.min.js><\/script>')
     }
     </script>
-    <script src="/js/jquery.appear.min.js"></script>
-    <script src="/js/waves.min.js"></script>
+    <script src="/js/default.js"></script>
+     
+    <script>
+        Waves.displayEffect();
+         
+    </script>
     <script src="/js/scripts.min.js"></script>
+    
+
+    <script type="application/ld+json">
+    [{
+        "@context" : "http://schema.org",
+        "@type" : "Event",
+        "name" : "GDG Akure",
+        "description": "Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts.",
+        "image" : "http://akure.gdg.ng/img/seo/sharing-google-plus.png",
+        "url" : "http://akure.gdg.ng",
+        "startDate" : "",
+        "doorTime" : "",
+        "endDate" : "",
+        "location" : {
+            "@type" : "Place",
+            "name" : "Eco-Innovation Hub",
+            "sameAs" : "",
+            "address" : {
+                "@type" : "PostalAddress",
+                "streetAddress" : "No 3, Sam Olukayode Street, Alagbaka, Akure, Ondo State",
+                "addressLocality" : "Akure",
+                "addressRegion" : "Ondo",
+                "postalCode" : "340223",
+                "addressCountry" : "Nigeria"
+            },
+            "geo" : {
+                "@type" : "GeoCoordinates",
+                
+                "latitude" : "7.4451",
+                "longitude" : " 5.701"
+            }
+        },
+        // Not supported yet
+        // "organizer" : {
+        //     "@type" : "Organization",
+        //     "name" : "GDG Lviv",
+        //     "alternateName" : "Google Developer Group Lviv",
+        //     "description" : "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion.",
+        //     "logo" : "http://akure.gdg.ng/img/seo/organizer-logo.png",
+        //     "email" : "lviv@gdg.org.ua",
+        //     "sameAs" : "http://lviv.gdg.org.ua/"
+        // },
+        "subEvent" : {
+            "@type" : "Event",
+            "name" : "Hackathon",
+            "description": "Web components are a new sets of emerging standards that allow developers to extend the web platform by creating their own HTML elements. Imagine if the web had its own mobile SDK, and building a web appllication meant wiring together well encapsulated components scoped with CSS. That's the future Web Components will bring about. And using a library like polymer, we can actually start building projects that levrage these technologies, today! <br /> Polyfill does two things: <ul> <li>It polyfills Web Components in modern browsers that lack support(IE 10+, Safari 6+, Mobile Safari), this means you can create projects that use Web Comoinents and actually run them cross browser.</li> <li>It adds features to the browser which are not part of the Web Components standards, but make working with Web Components easier. These features include data-binding, gesture support, property observation, and aclean, declarative syntax for creating new components</li> </ul>",
+            "image" : "http://akure.gdg.ng/img/seo/sharing-google-plus.png",
+            "url" : "http://akure.gdg.ng/hackathon/",
+            "startDate" : "2014-10-24T10:00",
+            "doorTime" : "09:00",
+            "endDate" : "2014-10-25T00:00",
+            "location" : {
+                "@type" : "Place",
+                "name" : "Elizade University",
+                "sameAs" : "http://www.elizadeuniversity.edu.ng/",
+                "address" : {
+                    "@type" : "PostalAddress",
+                    "streetAddress" : "Ilara-Mokin",
+                    "addressLocality" : "Ondo",
+                    "addressRegion" : "Ondo",
+                    "postalCode" : "",
+                    "addressCountry" : "Nigeria"
+                },
+                "geo" : {
+                    "@type" : "GeoCoordinates",
+                    
+                    "latitude" : "7.366478",
+                    "longitude" : " 5.106572"
+                }
+            }
+        },
+        "offers" : [
+        
+        {
+            "@type" : "Offer",
+            "name" : "Early Bird",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "350",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-08-25T10:00",
+            "validThrough" : "2014-09-30T23:59"
+        },
+        
+        {
+            "@type" : "Offer",
+            "name" : "Last Chance",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "450",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-10-01T00:00",
+            "validThrough" : "2014-10-23T23:59"
+        },
+        
+        {
+            "@type" : "Offer",
+            "name" : "Student",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "200",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-08-20T10:00",
+            "validThrough" : "2014-10-23T23:59"
+        }
+         
+        ],
+        "performer" : [ 
+        
+        {
+            "@type" : "Person",
+            "name" : "Tomiwa Ijaware",
+            "image" : "http://akure.gdg.ng/img/people/TomiwaIjaware.jpg",
+            "jobTitle" : "Software Engineer",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "500shops"
+            },
+            "sameAs" : "https://plus.google.com/+TomiwaIjaware/"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Akinwande Adegbola",
+            "image" : "http://akure.gdg.ng/img/people/AkinwandeAdegbola.jpg",
+            "jobTitle" : "Mobile/Software Developer",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Kaizen venture Partners"
+            },
+            "sameAs" : "https://plus.google.com/u/0/+AkinwandeAdegbola/"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Oluwadamilare Ibrahim",
+            "image" : "http://akure.gdg.ng/img/people/IbrahimOluwadamilare.jpg",
+            "jobTitle" : "Technological innovations lead",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Attitude Developers"
+            },
+            "sameAs" : "https://plus.google.com/u/0/+IbrahimOluwadamilare/"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Tomiwa Adegbola",
+            "image" : "http://akure.gdg.ng/img/people/TomiwaAdegbola.jpg",
+            "jobTitle" : "Geophysicist Intern",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Department of Pertroluem Resources"
+            },
+            "sameAs" : "https://plus.google.com/u/0/+TomiwaAdegbola/"
+        }
+          
+        ],
+        "eventStatus" : "EventScheduled",
+        "typicalAgeRange" : "16+"
+    }]
+    </script>
 </body>
 
 </html>
