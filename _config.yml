@@ -56,8 +56,8 @@ eventDate: "Sharing Technology. For Designers, Developers and Serious Tech Enthu
 typeoutTextValues: '"", "Akure"'
 typeoutFallback: ""
 heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a Member"}
- - {permalink: "#", text: "Register for DevFest"}
+ - {link: "https://plus.google.com/u/0/communities/106484271764040223307", text: "Become a Member"}
+ - {permalink: "https://docs.google.com/forms/d/1QmKxCLY887lzUGACNUtANQYvH166DHnmNDigysPCVYQ/viewform", text: "Register for DevFest"}
 
 # About Block
 aboutTitle: "About GDG Akure"
