@@ -1,44 +1,42 @@
 - 
   id: 0
-  name: "Dmytro"
-  surname: "Danylyk"
-  company: "Lemberg Solutions Limited"
-  title: "Android Developer"
-  thumbnailUrl: DmytroDanylyk.jpg
+  name: "Femi"
+  surname: "Taiwo"
+  company: " INITS Limited"
+  title: "Tech enthusiast, software developer, GDG Lagos Manager"
+  thumbnailUrl: FemiTaiwo.jpg
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+    - {name: "google-plus", link: "https://plus.google.com/+FemiTAIWO/"}
+    - {name: "twitter", link: "http://twitter.com/dftaiwo"}
 - 
   id: 1
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  company: "Nravo, GDG Lviv"
-  title: "Team Lead, Unity 3D Developer"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  name: "Constant"
+  surname: "Asabia"
+  company: "CU"
+  title: "Task Master"
+  thumbnailUrl: ConstantAsabia.jpg
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "google-plus", link: "https://plus.google.com/108680182774656502525"}
+    - {name: "facebook", link: "http://www.facebook.com/ConstantAsabia"}
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  company: "ELEKS, GDG Lviv"
-  title: "R&D Engineer"
-  thumbnailUrl: OstapAndrusiv.jpg
+  name: "Stanley"
+  surname: "Warri"
+  company: "CoduLabs"
+  title: "Co-Founder"
+  thumbnailUrl: 
   social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+    - {name: "google-plus", link: ""}
+    - {name: "twitter", link: ""}
+    - {name: "site", link: ""}
 - 
   id: 3
-  name: "Oleh"
-  surname: "Zasadnyy"
-  company: "EPAM Systems, GDG Lviv"
-  title: "Junior Software Engineer"
-  thumbnailUrl: OlehZasadnyy.jpg
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
+  name: "Tomiwa"
+  surname: "Ijaware"
+  company: "500shops"
+  title: "Software Engineer"
+  thumbnailUrl: TomiwaIjaware.jpg
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+TomiwaIjaware/"}
+    - {name: "twitter", link: "https://twitter.com/e911miri/"}
+    - {name: "github", link: "https://github.com/e911miri/"}
