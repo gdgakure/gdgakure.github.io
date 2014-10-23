@@ -48,3 +48,107 @@
   speakers: [7]
   language: en
   complexity: "Expert"
+- 
+  id: 701
+  title: "Arrival and Registration"
+  service: true
+- 
+  id: 702
+  title: "Introductory presentation"
+  description:
+  subtype: keynote
+  language: en
+  complexity: "Beginner"
+- 
+  id: 703
+  title: "Coffee Break"
+  service: true
+- 
+  id: 704
+  title: "Polymer Basics(interactive samples)"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+- 
+  id: 705
+  title: "Tutorial Codelab"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+- 
+  id: 706
+  title: "Maps codelab"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+- 
+  id: 707
+  title: "Break/Lunch"
+  service: true
+-
+  id: 708
+  title: "Self-guided codelabs (or continued hacking)"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: ""
+- 
+  id: 801
+  title: "Arrival and Registration"
+  service: true
+-
+  id: 802
+  title: "Introductory presentation"
+  description: ""
+  subtype: keynote
+  language: en
+  complexity: "Beginner"
+-
+  id: 803
+  title: "Team Formation"
+  description: ""
+  subtype: interaction
+  language: en
+  complexity: "none"
+- 
+  id: 804
+  title: "Sprint1: Idea Generation"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Beginner"
+-
+  id: 805
+  title: "Sprint2: Idea Discussion -Diverge"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+-
+  id: 806
+  title: "Sprint3: Idea Discussion -Converge on a product"
+  description: ""
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+- 
+  id: 807
+  title: "Break/Lunch"
+  service: true
+-
+  id: 808
+  title: "Sprint4: Product Prototyping"
+  description: ""
+  subtype: workshop
+  language: en
+  çomplexity: "Intermediate"
+-
+  id: 809
+  title: "Lightning presentation"
+  description: ""
+  subtype: presentation
+  language: en
+  complexity: "none"
