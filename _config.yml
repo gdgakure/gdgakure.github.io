@@ -70,7 +70,7 @@ aboutBlock:
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "24", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
  - {count: "10", specialCharacter: "+", info: "speakers", detail: "with experince in Google technologies"}
  - {count: "5", specialCharacter: "", info: "Universities", detail: "from across Ondo State"}
 
@@ -270,9 +270,9 @@ prizes:
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Elizade University"
-hackathonLocationLink: "http://www.elizadeuniversity.edu.ng/"
-hackathonStreetAddress: "Ilara-Mokin"
+hackathonLocationName: "Federal University of Technology"
+hackathonLocationLink: "http://www.futa.edu.ng/"
+hackathonStreetAddress: "Akure"
 hackathonAddressLocality: "Ondo"
 hackathonAddressLocalityRegion: "Ondo"
 hackathonPostalCode: ""
@@ -282,6 +282,6 @@ hackathonStartTime: "2014-10-24T10:00"
 hackathonDoorTime: "09:00"
 hackathonEndTime: "2014-10-25T00:00"
 viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "7.366478, 5.106572"
-hackathonMapCenterCoordinates: "7.366478, 5.106572"
-hackathonMapMobileCenterCoordinates: "7.366478,5.106572"
+hackathonPlaceCoordinates: "7.302783,5.1380125"
+hackathonMapCenterCoordinates: "7.302783,5.1380125"
+hackathonMapMobileCenterCoordinates: "7.302783,5.1380125"
