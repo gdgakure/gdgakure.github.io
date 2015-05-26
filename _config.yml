@@ -50,7 +50,7 @@ rightNavigationButtons:
  - {link: "http://bit.ly/gdgakureioextended", text: "Register for I/O Extended 2015"}
 
 # Hero Block
-heroImage: "IO2015.JPG"
+heroImage: "io2015.jpg"
 heroTitle: "GDG <typeout>"
 eventDate: "Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts."
 typeoutTextValues: '"", "Akure"'
@@ -267,10 +267,10 @@ prizes:
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Federal University of Technology"
-hackathonLocationLink: "http://www.futa.edu.ng/"
-hackathonStreetAddress: "Akure"
-hackathonAddressLocality: "Ondo"
+hackathonLocationName: "Joseph Ayo Babalola University"
+hackathonLocationLink: "http://www.jabu.edu.ng/"
+hackathonStreetAddress: "Ilara-Mokin"
+hackathonAddressLocality: "Akure"
 hackathonAddressLocalityRegion: "Ondo"
 hackathonPostalCode: ""
 hackathonAddressCountry: "Nigeria"
@@ -279,6 +279,6 @@ hackathonStartTime: "2014-10-24T10:00"
 hackathonDoorTime: "09:00"
 hackathonEndTime: "2014-10-25T00:00"
 viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "7.302783,5.1380125"
-hackathonMapCenterCoordinates: "7.302783,5.1380125"
-hackathonMapMobileCenterCoordinates: "7.302783,5.1380125"
+hackathonPlaceCoordinates: "7.415623,4.970455"
+hackathonMapCenterCoordinates: "7.415623,4.970455"
+hackathonMapMobileCenterCoordinates: "7.415623,4.970455"
