@@ -101,37 +101,37 @@
   service: true
 -
   id: 802
-  title: "Introductory presentation"
+  title: "Welcoming of guests and event opening"
   description: ""
   subtype: keynote
   language: en
   complexity: "Beginner"
 -
   id: 803
-  title: "Team Formation"
+  title: "Introduction of GDG, Women Techmakers"
   description: ""
   subtype: interaction
   language: en
   complexity: "none"
 - 
   id: 804
-  title: "Sprint1: Idea Generation"
+  title: "Review of Google I/O extended akure 2014"
   description: ""
   subtype: workshop
   language: en
   complexity: "Beginner"
 -
   id: 805
-  title: "Sprint2: Idea Discussion -Diverge"
+  title: "Brief Q&A session to charge everyone about how much they know about google technologies and lighting talks to get everyone in the mood for the keynote session "
   description: ""
   subtype: workshop
   language: en
   complexity: "Intermediate"
 -
   id: 806
-  title: "Sprint3: Idea Discussion -Converge on a product"
+  title: "Keynote session"
   description: ""
-  subtype: workshop
+  subtype: keynote
   language: en
   complexity: "Intermediate"
 - 
@@ -140,14 +140,28 @@
   service: true
 -
   id: 808
-  title: "Sprint4: Product Prototyping"
+  title: "Project NODA and Codulab"
   description: ""
   subtype: workshop
   language: en
   çomplexity: "Intermediate"
 -
   id: 809
-  title: "Lightning presentation"
+  title: "Introduction to Google Cloud Engine Platform"
+  description: ""
+  subtype: presentation
+  language: en
+  complexity: "none"
+-
+  id: 810
+  title: "Inauguration of JABU Tech team(GDG JABU)"
+  description: ""
+  subtype: presentation
+  language: en
+  complexity: "none"
+-
+  id: 811
+  title: "Vote of Thanks, Closing and photographs"
   description: ""
   subtype: presentation
   language: en

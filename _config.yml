@@ -16,15 +16,15 @@ siteVerification: ""
 port: 9999
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "GDG Akure"
+organizerAlternateName: "Google Developer Group Akure"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, akure"
 twitterAccount: "@GDGAkure"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -40,24 +40,24 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/events/", text: "Events"}
- - {permalink: "/hackathon/", text: "DevFest 2014"}
+ - {permalink: "/hackathon/", text: "I/O Extended 2015"}
  - {permalink: "/community/", text: "Community"}
  - {permalink: "/akure/", text: "Meet Akure"}
 
 bottomNavigationLinks:
  - {link: "https://plus.google.com/u/0/communities/106484271764040223307", text: "Become a Member"}
 rightNavigationButtons:
- - {link: "https://docs.google.com/forms/d/1QmKxCLY887lzUGACNUtANQYvH166DHnmNDigysPCVYQ/viewform", text: "Register for DevFest"}
+ - {link: "http://bit.ly/gdgakureioextended", text: "Register for I/O Extended 2015"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "IO2015.JPG"
 heroTitle: "GDG <typeout>"
 eventDate: "Sharing Technology. For Designers, Developers and Serious Tech Enthusiasts."
 typeoutTextValues: '"", "Akure"'
 typeoutFallback: ""
 heroButtons:
  - {link: "https://plus.google.com/u/0/communities/106484271764040223307", text: "Become a Member"}
- - {permalink: "https://docs.google.com/forms/d/1QmKxCLY887lzUGACNUtANQYvH166DHnmNDigysPCVYQ/viewform", text: "Register for DevFest"}
+ - {permalink: "http://bit.ly/gdgakureioextended", text: "Register for I/O Extended 2015"}
 
 # About Block
 aboutTitle: "About GDG Akure"
@@ -69,10 +69,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "24", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "10", specialCharacter: "+", info: "speakers", detail: "with experince in Google technologies"}
- - {count: "5", specialCharacter: "", info: "Universities", detail: "from across Ondo State"}
+ - {count: "200", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "6", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "5", specialCharacter: "+", info: "speakers", detail: "with experince in Google technologies"}
+ - {count: "2", specialCharacter: "", info: "Universities", detail: "from across Ondo State"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -110,8 +110,8 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+twitterHashTag: "ioextendedjabu"
+twitterFeed: "http://akure.gdg.ng/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -212,7 +212,7 @@ logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "Get around Akure"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
@@ -248,14 +248,11 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Baseline!"
+aboutHackathonTitle: "Introduction to Google IO"
 hackathonRows:
- - {title: "Polymer", image: "hackathon-2.png", details: "Web components are a new sets of emerging standards that allow developers to extend the web platform by creating their own HTML elements. Imagine if the web had its own mobile SDK, and building a web appllication meant wiring together well encapsulated components scoped with CSS. That's the future Web Components will bring about. And using a library like polymer, we can actually start building projects that levrage these technologies, today!
-<br /> Polyfill does two things:
-<ul>
-  <li>It polyfills Web Components in modern browsers that lack support(IE 10+, Safari 6+, Mobile Safari), this means you can create projects that use Web Comoinents and actually run them cross browser.</li>
-  <li>It adds features to the browser which are not part of the Web Components standards, but make working with Web Components easier. These features include data-binding, gesture support, property observation, and aclean, declarative syntax for creating new components</li>
-</ul>"}
+ - {title: "google i/o", image: "io_icon.png", details: "<p>Google I/O is an annual software developer-focused conference held by Google in San Francisco, California. Google I/O features highly technical, in-depth sessions focused on building web, mobile, and enterprise applications with Google and open web technologies such as Android, Chrome,Chrome OS, Google APIs, Google Web Toolkit,App Engine, and more.</p>
+<p>Google I/O was started in 2008. The <em>I</em> and <em>O</em> stand for input/output, and <em>Innovation in the Open</em>. The format of the event is similar to that of the Google Developer Day.</p>
+<p>Every year an offsite version of the IO is usually held round the world by local GDGs communities. GDG Akure would be organising an extended version of this year IO to showcase some of google new technologies that would rock the world in the next 365 days. Watch out for this year's IO extended because it promises to be fun filled.</p>"}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"

@@ -1,20 +1,21 @@
 - 
   id: 0
-  name: "Femi"
-  surname: "Taiwo"
-  company: " INITS Limited"
-  title: "Tech enthusiast, software developer, GDG Lagos Manager"
-  thumbnailUrl: FemiTaiwo.jpg
+  name: "Ibrahim"
+  surname: "Oluwadamilare"
+  company: "GDG Akure"
+  title: "GDG Akure Manager"
+  thumbnailUrl: IbrahimOluwadamilare.jpg
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+FemiTAIWO/"}
-    - {name: "twitter", link: "http://twitter.com/dftaiwo"}
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+IbrahimOluwadamilare/"}
+    - {name: "twitter", link: "https://twitter.com/iodamilare/"}
+    - {name: 'github', link: "https://github.com/IbrahimOluwadamilare/"}
 - 
   id: 1
-  name: "Constant"
-  surname: "Asabia"
-  company: "CU"
-  title: "Task Master"
-  thumbnailUrl: ConstantAsabia.jpg
+  name: "Ayodele"
+  surname: "Adeyemo"
+  company: "NODA"
+  title: "Co-Founder"
+  thumbnailUrl: AyoAdeyemo.jpg
   social: 
     - {name: "google-plus", link: "https://plus.google.com/108680182774656502525"}
     - {name: "facebook", link: "http://www.facebook.com/ConstantAsabia"}
@@ -32,11 +33,10 @@
 - 
   id: 3
   name: "Tomiwa"
-  surname: "Ijaware"
-  company: "500shops"
-  title: "Software Engineer"
-  thumbnailUrl: TomiwaIjaware.jpg
+  surname: "Adegbola"
+  company: ""
+  title: ""
+  thumbnailUrl: TomiwaAdegbola.jpg
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+TomiwaIjaware/"}
-    - {name: "twitter", link: "https://twitter.com/e911miri/"}
-    - {name: "github", link: "https://github.com/e911miri/"}
+    - {name: "google-plus", link: "https://plus.google.com/u/0/+TomiwaAdegbola/"}
+    - {name: "twitter", link: "https://twitter.com/charlidtoms/"}
